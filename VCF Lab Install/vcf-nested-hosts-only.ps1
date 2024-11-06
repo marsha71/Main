@@ -5,14 +5,14 @@
 
 # vCenter Server used to deploy VMware Cloud Foundation Lab
 $VIServer   = "192.168.6.100"
-$VIUsername = "administrator@vcrocs.local"
-$VIPassword = "VMware1!"
+$VIUsername = "administrator@bullies.local"
+$VIPassword = "VMware123!"
 
 
 
 # Full Path to both the Nested ESXi & Cloud Builder OVA
 #$NestedESXiApplianceOVA = "/Users/dalehassinger/Downloads/Nested_ESXi8.0u3b_Appliance_Template_v1.ova"
-$NestedESXiApplianceOVA = "/Users/hdale/Downloads/Nested_ESXi8.0u3b_Appliance_Template_v1.ova"
+$NestedESXiApplianceOVA = "/Users/mc006068broadcom.net/Downloads/Nested_ESXi8_0u3b_Appliance_Template_v1_ova-dl.ova"
 
 
 # Nested ESXi VMs for Management Domain
@@ -37,16 +37,16 @@ $NestedESXiMGMTBootDisk      = "32" #GB
 
 # General Deployment Configuration for Nested ESXi & Cloud Builder VM
 # These Values are for existing existing vCenter Install
-$VMDatacenter = "Datacenter-DB-01"
+$VMDatacenter = "DC-LAB01"
 $VMCluster    = "VCF_LAB"
 $VMNetwork    = "VMs"
-$VMDatastore  = "ESX-04-2TB"
+$VMDatastore  = "Datastore_3_2TB"
 $VMNetmask    = "255.255.252.0"
 $VMGateway    = "192.168.4.1"
 $VMDNS        = "192.168.6.1"
-$VMNTP        = "time.google.com"
-$VMPassword   = "VMware1!"
-$VMDomain     = "vcrocs.local"
+$VMNTP        = "time.nist.gov"
+$VMPassword   = "VMware123!"
+$VMDomain     = "bullies.local"
 $VMSyslog     = "192.168.6.94"
 $VMFolder     = "VCF-VMs"
 
