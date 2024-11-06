@@ -4,7 +4,7 @@
 
 
 # vCenter Server used to deploy VMware Cloud Foundation Lab
-$VIServer   = "10.0.0.111"
+$VIServer   = "VCMain.bullies.local"
 $VIUsername = "administrator@bullies.local"
 $VIPassword = "VMware123!"
 
@@ -17,7 +17,7 @@ $NestedESXiApplianceOVA = "/Users/mc006068broadcom.net/Downloads/Nested_ESXi8_0u
 
 # Nested ESXi VMs for Management Domain
 $NestedESXiHostnameToIPsForManagementDomain = @{
-    "VCF-DDC-ESX179"   = "192.168.4.179"
+    "VCF-DDC-ESX201"   = "10.0.0.201"
 } # End Nested Names
 
 #"VCF-DDC-ESX186"   = "192.168.4.186"
@@ -42,12 +42,12 @@ $VMCluster    = "VCF_LAB"
 $VMNetwork    = "VMs"
 $VMDatastore  = "Datastore_3_2TB"
 $VMNetmask    = "255.255.252.0"
-$VMGateway    = "192.168.4.1"
-$VMDNS        = "192.168.6.1"
+$VMGateway    = "10.0.0.1"
+$VMDNS        = "10.0.0.1"
 $VMNTP        = "time.nist.gov"
 $VMPassword   = "VMware123!"
 $VMDomain     = "bullies.local"
-$VMSyslog     = "192.168.6.94"
+$VMSyslog     = "10.0.0.114"
 $VMFolder     = "VCF-VMs"
 
 
