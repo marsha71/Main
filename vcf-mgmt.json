@@ -56,8 +56,8 @@
       "association": "vcf-m01-dc01",
       "includeIpAddressRanges": [
         {
-          "endIpAddress": "10.0.0.118",
-          "startIpAddress": "10.0.0.101"
+          "startIpAddress": "10.0.0.101",
+          "endIpAddress": "10.0.0.118"
         }
       ],
       "standbyUplinks": [],
@@ -75,8 +75,8 @@
       "portGroupKey": "vcf-m01-cl01-vds01-pg-vsan",
       "includeIpAddressRanges": [
         {
-          "endIpAddress": "10.0.0.118",
-          "startIpAddress": "10.0.0.101"
+          "startIpAddress": "10.0.0.101",
+          "endIpAddress": "10.0.0.118"
         }
       ],
       "standbyUplinks": [],
@@ -90,8 +90,8 @@
     "nsxtManagerSize": "medium",
     "nsxtManagers": [
       {
-        "hostname": "vcf-m01-nsx01a",
-        "ip": "10.0.0.11"
+        "ip": "10.0.0.11",
+        "hostname": "vcf-m01-nsx01a"
       }
     ],
     "rootNsxtManagerPassword": "VMware1!VMware1!",
@@ -120,8 +120,8 @@
           "cidr": "10.0.0.0/16",
           "ipAddressPoolRanges": [
             {
-              "start": "10.0.0.101",
-              "end": "10.0.0.118"
+              "end": "10.0.0.118",
+              "start": "10.0.0.101"
             }
           ]
         }
@@ -151,40 +151,40 @@
       ],
       "niocSpecs": [
         {
-          "trafficType": "VSAN",
-          "value": "HIGH"
+          "value": "HIGH",
+          "trafficType": "VSAN"
         },
         {
-          "trafficType": "VMOTION",
-          "value": "LOW"
+          "value": "LOW",
+          "trafficType": "VMOTION"
         },
         {
-          "trafficType": "VDP",
-          "value": "LOW"
+          "value": "LOW",
+          "trafficType": "VDP"
         },
         {
-          "trafficType": "VIRTUALMACHINE",
-          "value": "HIGH"
+          "value": "HIGH",
+          "trafficType": "VIRTUALMACHINE"
         },
         {
-          "trafficType": "MANAGEMENT",
-          "value": "NORMAL"
+          "value": "NORMAL",
+          "trafficType": "MANAGEMENT"
         },
         {
-          "trafficType": "NFS",
-          "value": "LOW"
+          "value": "LOW",
+          "trafficType": "NFS"
         },
         {
-          "trafficType": "HBR",
-          "value": "LOW"
+          "value": "LOW",
+          "trafficType": "HBR"
         },
         {
-          "trafficType": "FAULTTOLERANCE",
-          "value": "LOW"
+          "value": "LOW",
+          "trafficType": "FAULTTOLERANCE"
         },
         {
-          "trafficType": "ISCSI",
-          "value": "LOW"
+          "value": "LOW",
+          "trafficType": "ISCSI"
         }
       ],
       "isUsedByNsxt": "true"
