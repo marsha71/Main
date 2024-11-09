@@ -17,7 +17,11 @@ $NestedESXiApplianceOVA = "/Users/mc006068broadcom.net/Downloads/Nested_ESXi8.0u
 
 # Nested ESXi VMs for Management Domain
 $NestedESXiHostnameToIPsForManagementDomain = @{
-    "VCF-DDC-ESX205"   = "10.0.0.205"
+    "VCF-DDC-ESX206"   = "10.0.0.206"
+        "VCF-DDC-ESX207"   = "10.0.0.207"
+            "VCF-DDC-ESX208"   = "10.0.0.208"
+
+
 } # End Nested Names
 
 #"VCF-DDC-ESX186"   = "192.168.4.186"
