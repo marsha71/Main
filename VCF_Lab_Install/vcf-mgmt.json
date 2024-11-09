@@ -94,9 +94,9 @@
         "ip": "10.4.0.11"
       }
     ],
-    "rootNsxtManagerPassword": "VMware1!VMware1!",
-    "nsxtAdminPassword": "VMware1!VMware1!",
-    "nsxtAuditPassword": "VMware1!VMware1!",
+    "rootNsxtManagerPassword": "VMware123!VMware123!",
+    "nsxtAdminPassword": "VMware123!VMware123!",
+    "nsxtAuditPassword": "VMware123!VMware123!",
     "rootLoginEnabledForNsxtManager": true,
     "sshEnabledForNsxtManager": true,
     "overLayTransportZone": {
@@ -282,14 +282,14 @@
     {
       "association": "vcf-m01-dc01",
       "ipAddressPrivate": {
-        "ipAddress": "10.1.0.206",
+        "ipAddress": "10.0.1.206",
         "cidr": "10.0.1.0/24",
         "gateway": "10.0.0.1"
       },
       "hostname": "vcf-m01-esx01",
       "credentials": {
         "username": "root",
-        "password": "VMware1!"
+        "password": "VMware123!"
       },
       "sshThumbprint": "SHA256:DUMMY_VALUE",
       "sslThumbprint": "SHA25_DUMMY_VALUE",
@@ -299,14 +299,14 @@
     {
       "association": "vcf-m01-dc01",
       "ipAddressPrivate": {
-        "ipAddress": "10.1.0.207",
+        "ipAddress": "10.0.1.207",
         "cidr": "10.0.1.0/24",
         "gateway": "10.0.0.1"
       },
       "hostname": "vcf-m01-esx02",
       "credentials": {
         "username": "root",
-        "password": "VMware1!"
+        "password": "VMware123!"
       },
       "sshThumbprint": "SHA256:DUMMY_VALUE",
       "sslThumbprint": "SHA25_DUMMY_VALUE",
@@ -316,14 +316,14 @@
     {
       "association": "vcf-m01-dc01",
       "ipAddressPrivate": {
-        "ipAddress": "10.1.0.208",
+        "ipAddress": "10.0.1.208",
         "cidr": "10.0.1.0/24",
         "gateway": "10.0.0.1"
       },
       "hostname": "vcf-m01-esx03",
       "credentials": {
         "username": "root",
-        "password": "VMware1!"
+        "password": "VMware123!"
       },
       "sshThumbprint": "SHA256:DUMMY_VALUE",
       "sslThumbprint": "SHA25_DUMMY_VALUE",
@@ -333,14 +333,14 @@
     {
       "association": "vcf-m01-dc01",
       "ipAddressPrivate": {
-        "ipAddress": "10.1.0.209",
+        "ipAddress": "10.0.1.209",
         "cidr": "10.0.1.0/24",
         "gateway": "10.0.0.1"
       },
       "hostname": "vcf-m01-esx04",
       "credentials": {
         "username": "root",
-        "password": "VMware1!"
+        "password": "VMware123!"
       },
       "sshThumbprint": "SHA256:DUMMY_VALUE",
       "sslThumbprint": "SHA25_DUMMY_VALUE",
