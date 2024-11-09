@@ -2,14 +2,13 @@
 # Website: www.williamlam.com
 
 # vCenter Server used to deploy VMware Cloud Foundation Lab
-$VIServer = "FILL-ME-IN"
-$VIUsername = "FILL-ME-IN"
-$VIPassword = "FILL-ME-IN"
+$VIServer   = "VCMain.bullies.local"
+$VIUsername = "administrator@bullies.local"
+$VIPassword = "VMware123!"
 
 # Full Path to both the Nested ESXi & Cloud Builder OVA
-$NestedESXiApplianceOVA = "/root/Nested_ESXi8.0u3_Appliance_Template_v1.ova"
-$CloudBuilderOVA = "/root/VMware-Cloud-Builder-5.2.1.0-24307856_OVF10.ova"
-
+$NestedESXiApplianceOVA = "/users/mc006068broadcom.net/downloads/Nested_ESXi8.0u3b_Appliance_Template_v1.ova"
+$CloudBuilderOVA = "/users/mc006068broadcom.net/downloads/VMware-Cloud-Builder-5.2.0.0-24108943_OVF10.ova"
 # VCF Licenses or leave blank for evaluation mode (requires VCF 5.1.1 or later)
 $VCSALicense = ""
 $ESXILicense = ""
@@ -23,35 +22,45 @@ $VCFWorkloadDomainUIJSONFile = "vcf-commission-host-ui.json"
 $VCFWorkloadDomainAPIJSONFile = "vcf-commission-host-api.json"
 
 # Cloud Builder Configurations
-$CloudbuilderVMHostname = "vcf-m01-cb01"
-$CloudbuilderFQDN = "vcf-m01-cb01.tshirts.inc"
-$CloudbuilderIP = "172.17.31.180"
+$CloudbuilderVMHostname    = "vcf-m01-cb01"
+$CloudbuilderFQDN          = "vcf-m01-cb001.bulllies.local"
+$CloudbuilderIP            = "10.0.0.221"
 $CloudbuilderAdminUsername = "admin"
-$CloudbuilderAdminPassword = "VMw@re123!VMw@re123!"
-$CloudbuilderRootPassword = "VMw@re123!VMw@re123!"
+$CloudbuilderAdminPassword = "VMware123!VMware123!"
+$CloudbuilderRootPassword  = "VMware123!VMware123!"
+
 
 # SDDC Manager Configuration
-$SddcManagerHostname = "vcf-m01-sddcm01"
-$SddcManagerIP = "172.17.31.181"
-$SddcManagerVcfPassword = "VMware1!VMware1!"
-$SddcManagerRootPassword = "VMware1!VMware1!"
-$SddcManagerRestPassword = "VMware1!VMware1!"
-$SddcManagerLocalPassword = "VMware1!VMware1!"
+$SddcManagerHostname      = "vcf-m01-sddcm01"
+$SddcManagerIP            = "10.0.0.212"
+$SddcManagerVcfPassword   = "VMware123!VMware123!"
+$SddcManagerRootPassword  = "VMware123!VMware123!"
+$SddcManagerRestPassword  = "VMware123!VMware123!"
+$SddcManagerLocalPassword = "VMware123!VMware123!"
+
+
+
+$NestedESXiHostnameToIPsForManagementDomain = @{
+    "VCF-DDC-ESX205" = "10.0.0.205"
+
+}
 
 # Nested ESXi VMs for Management Domain
 $NestedESXiHostnameToIPsForManagementDomain = @{
-    "vcf-m01-esx01"   = "172.17.31.185"
-    "vcf-m01-esx02"   = "172.17.31.186"
-    "vcf-m01-esx03"   = "172.17.31.187"
-    "vcf-m01-esx04"   = "172.17.31.188"
+    "vcf-m01-esx01"   = "10.0.0.206"
+    "vcf-m01-esx02"   = "10.0.0.207"
+    "vcf-m01-esx03"   = "10.0.0.208"
+    "vcf-m01-esx04"   = "10.0.0.209"
 }
+
+
 
 # Nested ESXi VMs for Workload Domain
 $NestedESXiHostnameToIPsForWorkloadDomain = @{
-    "vcf-m01-esx05"   = "172.17.31.189"
-    "vcf-m01-esx06"   = "172.17.31.190"
-    "vcf-m01-esx07"   = "172.17.31.191"
-    "vcf-m01-esx08"   = "172.17.31.192"
+    "vcf-m01-esx05"   = "10.0.0.230"
+    "vcf-m01-esx06"   = "10.0.0.231"
+    "vcf-m01-esx07"   = "10.0.0.232"
+    "vcf-m01-esx08"   = "10.0.0.233"
 }
 
 # Nested ESXi VM Resources for Management Domain
@@ -70,42 +79,48 @@ $NestedESXiWLDCapacityvDisk = "250" #GB
 $NestedESXiWLDBootDisk = "32" #GB
 
 # ESXi Network Configuration
-$NestedESXiManagementNetworkCidr = "172.17.31.0/24" # should match $VMNetwork configuration
-$NestedESXivMotionNetworkCidr = "172.17.32.0/24"
-$NestedESXivSANNetworkCidr = "172.17.33.0/24"
-$NestedESXiNSXTepNetworkCidr = "172.17.34.0/24"
+$NestedESXiManagementNetworkCidr = "10.0.0.0/16" # should match $VMNetwork configuration
+$NestedESXivMotionNetworkCidr    = "10.0.0.0/16"
+$NestedESXivSANNetworkCidr       = "10.0.0.0/16"
+$NestedESXiNSXTepNetworkCidr     = "10.0.0.0/16"
+
+
 
 # vCenter Configuration
-$VCSAName = "vcf-m01-vc01"
-$VCSAIP = "172.17.31.182"
-$VCSARootPassword = "VMware1!"
-$VCSASSOPassword = "VMware1!"
-$EnableVCLM = $true
+$VCSAName         = "vcf-m01-vc01"
+$VCSAIP           = "10.0.0.234"
+$VCSARootPassword = "VMware123!"
+$VCSASSOPassword  = "VMware123!"
+$EnableVCLM       = $true
+
+
 
 # NSX Configuration
-$NSXManagerSize = "medium"
-$NSXManagerVIPHostname = "vcf-m01-nsx01"
-$NSXManagerVIPIP = "172.17.31.183"
+$NSXManagerSize          = "medium"
+$NSXManagerVIPHostname   = "vcf-m01-nsx01"
+$NSXManagerVIPIP         = "10.0.0.235"
 $NSXManagerNode1Hostname = "vcf-m01-nsx01a"
-$NSXManagerNode1IP = "172.17.31.184"
-$NSXRootPassword = "VMware1!VMware1!"
-$NSXAdminPassword = "VMware1!VMware1!"
-$NSXAuditPassword = "VMware1!VMware1!"
+$NSXManagerNode1IP       = "10.0.0.11"
+$NSXRootPassword         = "VMware1!VMware1!"
+$NSXAdminPassword        = "VMware1!VMware1!"
+$NSXAuditPassword        = "VMware1!VMware1!"
+
+
 
 # General Deployment Configuration for Nested ESXi & Cloud Builder VM
-$VMDatacenter = "San Jose"
-$VMCluster = "Compute Cluster"
-$VMNetwork = "sjc-comp-mgmt (1731)"
-$VMDatastore = "comp-vsanDatastore"
-$VMNetmask = "255.255.255.0"
-$VMGateway = "172.17.31.1"
-$VMDNS = "172.17.31.2"
-$VMNTP = "172.17.31.2"
-$VMPassword = "VMware1!"
-$VMDomain = "tshirts.inc"
-$VMSyslog = "172.17.31.182"
-$VMFolder = "VCF"
-
+# This is information from you current vCenter lab environment
+$VMDatacenter = "DC-LAB01"
+$VMCluster    = "VCF-LAB"
+$VMNetwork    = "VMs"
+$VMDatastore  = "Datastore_3_2TB"
+$VMNetmask    = "255.255.0.0"
+$VMGateway    = "10.0.0.1"
+$VMDNS        = "10.0.0.114"
+$VMNTP        = "time.nist.gov"
+$VMPassword   = "VMware1!"
+$VMDomain     = "bullies.local"
+$VMSyslog     = "10.0.0.114"
+$VMFolder     = "VCF-VMs"
 #### DO NOT EDIT BEYOND HERE ####
 
 $verboseLogFile = "vcf-lab-deployment.log"
