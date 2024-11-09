@@ -38,8 +38,8 @@ $NestedESXiMGMTBootDisk      = "32" #GB
 # General Deployment Configuration for Nested ESXi & Cloud Builder VM
 # These Values are for existing existing vCenter Install
 $VMDatacenter = "DC-LAB01"
-$VMCluster    = "VCF_LAB"
-$VMNetwork    = "VMs"
+$VMCluster    = "VCF-LAB"
+$VMNetwork    = "VMs-Main"
 $VMDatastore  = "Datastore_3_2TB"
 $VMNetmask    = "255.255.252.0"
 $VMGateway    = "10.0.0.1"
