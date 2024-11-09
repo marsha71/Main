@@ -17,7 +17,7 @@ $NestedESXiApplianceOVA = "/Users/mc006068broadcom.net/Downloads/Nested_ESXi8_0u
 
 # Nested ESXi VMs for Management Domain
 $NestedESXiHostnameToIPsForManagementDomain = @{
-    "VCF-DDC-ESX201"   = "10.0.0.202"
+    "VCF-DDC-ESX205"   = "10.0.0.205"
 } # End Nested Names
 
 #"VCF-DDC-ESX186"   = "192.168.4.186"
@@ -39,9 +39,9 @@ $NestedESXiMGMTBootDisk      = "32" #GB
 # These Values are for existing existing vCenter Install
 $VMDatacenter = "DC-LAB01"
 $VMCluster    = "VCF-LAB"
-$VMNetwork    = "VMs-Main"
+$VMNetwork    = "VMs"
 $VMDatastore  = "Datastore_3_2TB"
-$VMNetmask    = "255.255.252.0"
+$VMNetmask    = "255.255.255.0"
 $VMGateway    = "10.0.0.1"
 $VMDNS        = "10.0.0.1"
 $VMNTP        = "time.nist.gov"
