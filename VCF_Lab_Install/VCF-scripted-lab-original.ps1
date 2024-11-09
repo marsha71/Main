@@ -1,8 +1,9 @@
 # Author: William Lam
 # Website: www.williamlam.com
+[Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12 -bor [Net.SecurityProtocolType]::Tls13
 
 # vCenter Server used to deploy VMware Cloud Foundation Lab
-$VIServer   = "VCMain.bullies.local"
+$VIServer   = "vcmain.bullies.local"
 $VIUsername = "administrator@bullies.local"
 $VIPassword = "VMware123!"
 
@@ -47,20 +48,20 @@ $NestedESXiHostnameToIPsForManagementDomain = @{
 
 # Nested ESXi VMs for Management Domain
 $NestedESXiHostnameToIPsForManagementDomain = @{
-    "vcf-m01-esx01"   = "10.0.0.206"
-    "vcf-m01-esx02"   = "10.0.0.207"
-    "vcf-m01-esx03"   = "10.0.0.208"
-    "vcf-m01-esx04"   = "10.0.0.209"
+    "vcf-m01-esx01"   = "10.1.0.206"
+    "vcf-m01-esx02"   = "10.1.0.207"
+    "vcf-m01-esx03"   = "10.1.0.208"
+    "vcf-m01-esx04"   = "10.1.0.209"
 }
 
 
 
 # Nested ESXi VMs for Workload Domain
 $NestedESXiHostnameToIPsForWorkloadDomain = @{
-    "vcf-m01-esx05"   = "10.0.0.230"
-    "vcf-m01-esx06"   = "10.0.0.231"
-    "vcf-m01-esx07"   = "10.0.0.232"
-    "vcf-m01-esx08"   = "10.0.0.233"
+    "vcf-m01-esx05"   = "10.1.0.230"
+    "vcf-m01-esx06"   = "10.1.0.231"
+    "vcf-m01-esx07"   = "10.1.0.232"
+    "vcf-m01-esx08"   = "10.1.0.233"
 }
 
 # Nested ESXi VM Resources for Management Domain
@@ -79,16 +80,16 @@ $NestedESXiWLDCapacityvDisk = "250" #GB
 $NestedESXiWLDBootDisk = "32" #GB
 
 # ESXi Network Configuration
-$NestedESXiManagementNetworkCidr = "10.0.0.0/16" # should match $VMNetwork configuration
-$NestedESXivMotionNetworkCidr    = "10.0.0.0/16"
-$NestedESXivSANNetworkCidr       = "10.0.0.0/16"
-$NestedESXiNSXTepNetworkCidr     = "10.0.0.0/16"
+$NestedESXiManagementNetworkCidr = "10.1.0.0/16" # should match $VMNetwork configuration
+$NestedESXivMotionNetworkCidr    = "10.2.0.0/16"
+$NestedESXivSANNetworkCidr       = "10.3.0.0/16"
+$NestedESXiNSXTepNetworkCidr     = "10.4.0.0/16"
 
 
 
 # vCenter Configuration
 $VCSAName         = "vcf-m01-vc01"
-$VCSAIP           = "10.0.0.234"
+$VCSAIP           = "10.1.0.234"
 $VCSARootPassword = "VMware123!"
 $VCSASSOPassword  = "VMware123!"
 $EnableVCLM       = $true
@@ -98,9 +99,9 @@ $EnableVCLM       = $true
 # NSX Configuration
 $NSXManagerSize          = "medium"
 $NSXManagerVIPHostname   = "vcf-m01-nsx01"
-$NSXManagerVIPIP         = "10.0.0.235"
+$NSXManagerVIPIP         = "10.4.0.235"
 $NSXManagerNode1Hostname = "vcf-m01-nsx01a"
-$NSXManagerNode1IP       = "10.0.0.11"
+$NSXManagerNode1IP       = "10.4.0.11"
 $NSXRootPassword         = "VMware1!VMware1!"
 $NSXAdminPassword        = "VMware1!VMware1!"
 $NSXAuditPassword        = "VMware1!VMware1!"

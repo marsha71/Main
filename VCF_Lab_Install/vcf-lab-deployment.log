@@ -1,0 +1,817 @@
+[11-08-2024_09:06:00] Connecting to Management vCenter Server VCMain.bullies.local ...
+[11-08-2024_09:06:02] Deploying Nested ESXi VM vcf-m01-esx01 ...
+[11-08-2024_09:06:02] Adding vmnic2/vmnic3 to Nested ESXi VMs ...
+[11-08-2024_09:06:02] Updating vCPU Count to 12 & vMEM to 78 GB ...
+[11-08-2024_09:06:02] Updating vSAN Cache VMDK size to 4 GB & Capacity VMDK size to 500 GB ...
+[11-08-2024_09:06:02] Updating vSAN Boot Disk size to 32 GB ...
+[11-08-2024_09:06:02] Powering On vcf-m01-esx01 ...
+[11-08-2024_09:06:02] Deploying Nested ESXi VM vcf-m01-esx02 ...
+[11-08-2024_09:06:02] Adding vmnic2/vmnic3 to Nested ESXi VMs ...
+[11-08-2024_09:06:02] Updating vCPU Count to 12 & vMEM to 78 GB ...
+[11-08-2024_09:06:02] Updating vSAN Cache VMDK size to 4 GB & Capacity VMDK size to 500 GB ...
+[11-08-2024_09:06:02] Updating vSAN Boot Disk size to 32 GB ...
+[11-08-2024_09:06:02] Powering On vcf-m01-esx02 ...
+[11-08-2024_09:06:02] Deploying Nested ESXi VM vcf-m01-esx03 ...
+[11-08-2024_09:06:02] Adding vmnic2/vmnic3 to Nested ESXi VMs ...
+[11-08-2024_09:06:02] Updating vCPU Count to 12 & vMEM to 78 GB ...
+[11-08-2024_09:06:02] Updating vSAN Cache VMDK size to 4 GB & Capacity VMDK size to 500 GB ...
+[11-08-2024_09:06:02] Updating vSAN Boot Disk size to 32 GB ...
+[11-08-2024_09:06:02] Powering On vcf-m01-esx03 ...
+[11-08-2024_09:06:02] Deploying Nested ESXi VM vcf-m01-esx04 ...
+[11-08-2024_09:06:02] Adding vmnic2/vmnic3 to Nested ESXi VMs ...
+[11-08-2024_09:06:02] Updating vCPU Count to 12 & vMEM to 78 GB ...
+[11-08-2024_09:06:02] Updating vSAN Cache VMDK size to 4 GB & Capacity VMDK size to 500 GB ...
+[11-08-2024_09:06:02] Updating vSAN Boot Disk size to 32 GB ...
+[11-08-2024_09:06:02] Powering On vcf-m01-esx04 ...
+[11-08-2024_09:06:02] Deploying Nested ESXi VM vcf-m01-esx05 ...
+[11-08-2024_09:06:02] Adding vmnic2/vmnic3 to Nested ESXi VMs ...
+[11-08-2024_09:06:02] Updating vCPU Count to 8 & vMEM to 36 GB ...
+[11-08-2024_09:06:02] Updating vSAN Cache VMDK size to 4 GB & Capacity VMDK size to 250 GB ...
+[11-08-2024_09:06:02] Updating vSAN Boot Disk size to 32 GB ...
+[11-08-2024_09:06:02] Powering On vcf-m01-esx05 ...
+[11-08-2024_09:06:02] Deploying Nested ESXi VM vcf-m01-esx06 ...
+[11-08-2024_09:06:02] Adding vmnic2/vmnic3 to Nested ESXi VMs ...
+[11-08-2024_09:06:02] Updating vCPU Count to 8 & vMEM to 36 GB ...
+[11-08-2024_09:06:02] Updating vSAN Cache VMDK size to 4 GB & Capacity VMDK size to 250 GB ...
+[11-08-2024_09:06:02] Updating vSAN Boot Disk size to 32 GB ...
+[11-08-2024_09:06:02] Powering On vcf-m01-esx06 ...
+[11-08-2024_09:06:02] Deploying Nested ESXi VM vcf-m01-esx07 ...
+[11-08-2024_09:06:02] Adding vmnic2/vmnic3 to Nested ESXi VMs ...
+[11-08-2024_09:06:02] Updating vCPU Count to 8 & vMEM to 36 GB ...
+[11-08-2024_09:06:02] Updating vSAN Cache VMDK size to 4 GB & Capacity VMDK size to 250 GB ...
+[11-08-2024_09:06:02] Updating vSAN Boot Disk size to 32 GB ...
+[11-08-2024_09:06:02] Powering On vcf-m01-esx07 ...
+[11-08-2024_09:06:02] Deploying Nested ESXi VM vcf-m01-esx08 ...
+[11-08-2024_09:06:02] Adding vmnic2/vmnic3 to Nested ESXi VMs ...
+[11-08-2024_09:06:02] Updating vCPU Count to 8 & vMEM to 36 GB ...
+[11-08-2024_09:06:02] Updating vSAN Cache VMDK size to 4 GB & Capacity VMDK size to 250 GB ...
+[11-08-2024_09:06:02] Updating vSAN Boot Disk size to 32 GB ...
+[11-08-2024_09:06:02] Powering On vcf-m01-esx08 ...
+[11-08-2024_09:06:02] Deploying Cloud Builder VM vcf-m01-cb01 ...
+[11-08-2024_09:06:02] Powering On vcf-m01-cb01 ...
+[11-08-2024_09:06:02] Generating Cloud Builder VCF Management Domain configuration deployment file vcf-mgmt.json
+[11-08-2024_09:06:02] Generating Cloud Builder VCF Workload Domain Host Commission file vcf-commission-host-ui.json and vcf-commission-host-api.json for SDDC Manager UI and API
+[11-08-2024_09:06:02] Starting VCF Deployment Bringup ...
+[11-08-2024_09:06:02] Waiting for Cloud Builder to be ready ...
+[11-08-2024_09:06:07] Cloud Builder is not ready yet, sleeping for 120 seconds ...
+[11-08-2024_09:13:27] Connecting to Management vCenter Server 10.0.0.111 ...
+[11-08-2024_09:13:27] Deploying Nested ESXi VM vcf-m01-esx01 ...
+[11-08-2024_09:13:27] Adding vmnic2/vmnic3 to Nested ESXi VMs ...
+[11-08-2024_09:13:27] Updating vCPU Count to 12 & vMEM to 78 GB ...
+[11-08-2024_09:13:27] Updating vSAN Cache VMDK size to 4 GB & Capacity VMDK size to 500 GB ...
+[11-08-2024_09:13:27] Updating vSAN Boot Disk size to 32 GB ...
+[11-08-2024_09:13:27] Powering On vcf-m01-esx01 ...
+[11-08-2024_09:13:27] Deploying Nested ESXi VM vcf-m01-esx02 ...
+[11-08-2024_09:13:27] Adding vmnic2/vmnic3 to Nested ESXi VMs ...
+[11-08-2024_09:13:27] Updating vCPU Count to 12 & vMEM to 78 GB ...
+[11-08-2024_09:13:27] Updating vSAN Cache VMDK size to 4 GB & Capacity VMDK size to 500 GB ...
+[11-08-2024_09:13:27] Updating vSAN Boot Disk size to 32 GB ...
+[11-08-2024_09:13:27] Powering On vcf-m01-esx02 ...
+[11-08-2024_09:13:27] Deploying Nested ESXi VM vcf-m01-esx03 ...
+[11-08-2024_09:13:27] Adding vmnic2/vmnic3 to Nested ESXi VMs ...
+[11-08-2024_09:13:27] Updating vCPU Count to 12 & vMEM to 78 GB ...
+[11-08-2024_09:13:27] Updating vSAN Cache VMDK size to 4 GB & Capacity VMDK size to 500 GB ...
+[11-08-2024_09:13:27] Updating vSAN Boot Disk size to 32 GB ...
+[11-08-2024_09:13:27] Powering On vcf-m01-esx03 ...
+[11-08-2024_09:13:27] Deploying Nested ESXi VM vcf-m01-esx04 ...
+[11-08-2024_09:13:27] Adding vmnic2/vmnic3 to Nested ESXi VMs ...
+[11-08-2024_09:13:27] Updating vCPU Count to 12 & vMEM to 78 GB ...
+[11-08-2024_09:13:27] Updating vSAN Cache VMDK size to 4 GB & Capacity VMDK size to 500 GB ...
+[11-08-2024_09:13:27] Updating vSAN Boot Disk size to 32 GB ...
+[11-08-2024_09:13:27] Powering On vcf-m01-esx04 ...
+[11-08-2024_09:13:27] Deploying Nested ESXi VM vcf-m01-esx05 ...
+[11-08-2024_09:13:27] Adding vmnic2/vmnic3 to Nested ESXi VMs ...
+[11-08-2024_09:13:27] Updating vCPU Count to 8 & vMEM to 36 GB ...
+[11-08-2024_09:13:27] Updating vSAN Cache VMDK size to 4 GB & Capacity VMDK size to 250 GB ...
+[11-08-2024_09:13:27] Updating vSAN Boot Disk size to 32 GB ...
+[11-08-2024_09:13:27] Powering On vcf-m01-esx05 ...
+[11-08-2024_09:13:27] Deploying Nested ESXi VM vcf-m01-esx06 ...
+[11-08-2024_09:13:27] Adding vmnic2/vmnic3 to Nested ESXi VMs ...
+[11-08-2024_09:13:27] Updating vCPU Count to 8 & vMEM to 36 GB ...
+[11-08-2024_09:13:27] Updating vSAN Cache VMDK size to 4 GB & Capacity VMDK size to 250 GB ...
+[11-08-2024_09:13:27] Updating vSAN Boot Disk size to 32 GB ...
+[11-08-2024_09:13:27] Powering On vcf-m01-esx06 ...
+[11-08-2024_09:13:27] Deploying Nested ESXi VM vcf-m01-esx07 ...
+[11-08-2024_09:13:27] Adding vmnic2/vmnic3 to Nested ESXi VMs ...
+[11-08-2024_09:13:27] Updating vCPU Count to 8 & vMEM to 36 GB ...
+[11-08-2024_09:13:27] Updating vSAN Cache VMDK size to 4 GB & Capacity VMDK size to 250 GB ...
+[11-08-2024_09:13:27] Updating vSAN Boot Disk size to 32 GB ...
+[11-08-2024_09:13:27] Powering On vcf-m01-esx07 ...
+[11-08-2024_09:13:27] Deploying Nested ESXi VM vcf-m01-esx08 ...
+[11-08-2024_09:13:27] Adding vmnic2/vmnic3 to Nested ESXi VMs ...
+[11-08-2024_09:13:27] Updating vCPU Count to 8 & vMEM to 36 GB ...
+[11-08-2024_09:13:27] Updating vSAN Cache VMDK size to 4 GB & Capacity VMDK size to 250 GB ...
+[11-08-2024_09:13:27] Updating vSAN Boot Disk size to 32 GB ...
+[11-08-2024_09:13:27] Powering On vcf-m01-esx08 ...
+[11-08-2024_09:13:27] Deploying Cloud Builder VM vcf-m01-cb01 ...
+[11-08-2024_09:13:27] Powering On vcf-m01-cb01 ...
+[11-08-2024_09:13:27] Generating Cloud Builder VCF Management Domain configuration deployment file vcf-mgmt.json
+[11-08-2024_09:13:27] Generating Cloud Builder VCF Workload Domain Host Commission file vcf-commission-host-ui.json and vcf-commission-host-api.json for SDDC Manager UI and API
+[11-08-2024_09:13:27] Starting VCF Deployment Bringup ...
+[11-08-2024_09:13:27] Waiting for Cloud Builder to be ready ...
+[11-08-2024_09:13:32] Cloud Builder is not ready yet, sleeping for 120 seconds ...
+[11-08-2024_09:14:40] Connecting to Management vCenter Server 10.0.0.111 ...
+[11-08-2024_09:14:40] Deploying Nested ESXi VM vcf-m01-esx01 ...
+[11-08-2024_09:14:40] Adding vmnic2/vmnic3 to Nested ESXi VMs ...
+[11-08-2024_09:14:40] Updating vCPU Count to 12 & vMEM to 78 GB ...
+[11-08-2024_09:14:40] Updating vSAN Cache VMDK size to 4 GB & Capacity VMDK size to 500 GB ...
+[11-08-2024_09:14:40] Updating vSAN Boot Disk size to 32 GB ...
+[11-08-2024_09:14:40] Powering On vcf-m01-esx01 ...
+[11-08-2024_09:14:40] Deploying Nested ESXi VM vcf-m01-esx02 ...
+[11-08-2024_09:14:40] Adding vmnic2/vmnic3 to Nested ESXi VMs ...
+[11-08-2024_09:14:40] Updating vCPU Count to 12 & vMEM to 78 GB ...
+[11-08-2024_09:14:40] Updating vSAN Cache VMDK size to 4 GB & Capacity VMDK size to 500 GB ...
+[11-08-2024_09:14:40] Updating vSAN Boot Disk size to 32 GB ...
+[11-08-2024_09:14:40] Powering On vcf-m01-esx02 ...
+[11-08-2024_09:14:40] Deploying Nested ESXi VM vcf-m01-esx03 ...
+[11-08-2024_09:14:40] Adding vmnic2/vmnic3 to Nested ESXi VMs ...
+[11-08-2024_09:14:40] Updating vCPU Count to 12 & vMEM to 78 GB ...
+[11-08-2024_09:14:40] Updating vSAN Cache VMDK size to 4 GB & Capacity VMDK size to 500 GB ...
+[11-08-2024_09:14:40] Updating vSAN Boot Disk size to 32 GB ...
+[11-08-2024_09:14:40] Powering On vcf-m01-esx03 ...
+[11-08-2024_09:14:40] Deploying Nested ESXi VM vcf-m01-esx04 ...
+[11-08-2024_09:14:40] Adding vmnic2/vmnic3 to Nested ESXi VMs ...
+[11-08-2024_09:14:40] Updating vCPU Count to 12 & vMEM to 78 GB ...
+[11-08-2024_09:14:40] Updating vSAN Cache VMDK size to 4 GB & Capacity VMDK size to 500 GB ...
+[11-08-2024_09:14:40] Updating vSAN Boot Disk size to 32 GB ...
+[11-08-2024_09:14:40] Powering On vcf-m01-esx04 ...
+[11-08-2024_09:14:40] Deploying Nested ESXi VM vcf-m01-esx05 ...
+[11-08-2024_09:14:40] Adding vmnic2/vmnic3 to Nested ESXi VMs ...
+[11-08-2024_09:14:40] Updating vCPU Count to 8 & vMEM to 36 GB ...
+[11-08-2024_09:14:40] Updating vSAN Cache VMDK size to 4 GB & Capacity VMDK size to 250 GB ...
+[11-08-2024_09:14:40] Updating vSAN Boot Disk size to 32 GB ...
+[11-08-2024_09:14:40] Powering On vcf-m01-esx05 ...
+[11-08-2024_09:14:40] Deploying Nested ESXi VM vcf-m01-esx06 ...
+[11-08-2024_09:14:40] Adding vmnic2/vmnic3 to Nested ESXi VMs ...
+[11-08-2024_09:14:40] Updating vCPU Count to 8 & vMEM to 36 GB ...
+[11-08-2024_09:14:40] Updating vSAN Cache VMDK size to 4 GB & Capacity VMDK size to 250 GB ...
+[11-08-2024_09:14:40] Updating vSAN Boot Disk size to 32 GB ...
+[11-08-2024_09:14:40] Powering On vcf-m01-esx06 ...
+[11-08-2024_09:14:40] Deploying Nested ESXi VM vcf-m01-esx07 ...
+[11-08-2024_09:14:40] Adding vmnic2/vmnic3 to Nested ESXi VMs ...
+[11-08-2024_09:14:40] Updating vCPU Count to 8 & vMEM to 36 GB ...
+[11-08-2024_09:14:40] Updating vSAN Cache VMDK size to 4 GB & Capacity VMDK size to 250 GB ...
+[11-08-2024_09:14:40] Updating vSAN Boot Disk size to 32 GB ...
+[11-08-2024_09:14:40] Powering On vcf-m01-esx07 ...
+[11-08-2024_09:14:40] Deploying Nested ESXi VM vcf-m01-esx08 ...
+[11-08-2024_09:14:40] Adding vmnic2/vmnic3 to Nested ESXi VMs ...
+[11-08-2024_09:14:40] Updating vCPU Count to 8 & vMEM to 36 GB ...
+[11-08-2024_09:14:40] Updating vSAN Cache VMDK size to 4 GB & Capacity VMDK size to 250 GB ...
+[11-08-2024_09:14:40] Updating vSAN Boot Disk size to 32 GB ...
+[11-08-2024_09:14:40] Powering On vcf-m01-esx08 ...
+[11-08-2024_09:14:40] Deploying Cloud Builder VM vcf-m01-cb01 ...
+[11-08-2024_09:14:40] Powering On vcf-m01-cb01 ...
+[11-08-2024_09:14:40] Generating Cloud Builder VCF Management Domain configuration deployment file vcf-mgmt.json
+[11-08-2024_09:14:40] Generating Cloud Builder VCF Workload Domain Host Commission file vcf-commission-host-ui.json and vcf-commission-host-api.json for SDDC Manager UI and API
+[11-08-2024_09:14:40] Starting VCF Deployment Bringup ...
+[11-08-2024_09:14:40] Waiting for Cloud Builder to be ready ...
+[11-08-2024_09:14:45] Cloud Builder is not ready yet, sleeping for 120 seconds ...
+[11-08-2024_09:16:01] Connecting to Management vCenter Server 10.0.0.111 ...
+[11-08-2024_09:20:27] Connecting to Management vCenter Server vcmain.bullies.local ...
+[11-08-2024_09:20:29] Deploying Nested ESXi VM vcf-m01-esx01 ...
+[11-08-2024_09:20:39] Adding vmnic2/vmnic3 to Nested ESXi VMs ...
+
+Name                 Type            NetworkName     MacAddress         WakeOnLan
+                                                                          Enabled
+----                 ----            -----------     ----------         ---------
+Network adapter 3    Vmxnet3         VMs             00:50:56:88:9e:b7      False
+
+
+Name                 Type            NetworkName     MacAddress         WakeOnLan
+                                                                          Enabled
+----                 ----            -----------     ----------         ---------
+Network adapter 4    Vmxnet3         VMs             00:50:56:88:ad:30      False
+
+
+Name                 Value                Type                 Description
+----                 -----                ----                 -----------
+ethernet2.filter4.n… dvfilter-maclearn    VM                   
+
+
+Name                 Value                Type                 Description
+----                 -----                ----                 -----------
+ethernet2.filter4.o… failOpen             VM                   
+
+
+Name                 Value                Type                 Description
+----                 -----                ----                 -----------
+ethernet3.filter4.n… dvfilter-maclearn    VM                   
+
+
+Name                 Value                Type                 Description
+----                 -----                ----                 -----------
+ethernet3.filter4.o… failOpen             VM                   
+
+[11-08-2024_09:20:51] Updating vCPU Count to 12 & vMEM to 78 GB ...
+
+Name                 PowerState Num CPUs MemoryGB
+----                 ---------- -------- --------
+vcf-m01-esx01        PoweredOff 12       78.000
+
+[11-08-2024_09:20:52] Updating vSAN Cache VMDK size to 4 GB & Capacity VMDK size to 500 GB ...
+
+CapacityGB      Persistence                                                    Filename
+----------      -----------                                                    --------
+4.000           Persistent           …tastore_3_2TB] vcf-m01-esx01/vcf-m01-esx01_1.vmdk
+
+
+CapacityGB      Persistence                                                    Filename
+----------      -----------                                                    --------
+500.000         Persistent           …tastore_3_2TB] vcf-m01-esx01/vcf-m01-esx01_2.vmdk
+
+[11-08-2024_09:20:58] Updating vSAN Boot Disk size to 32 GB ...
+
+CapacityGB      Persistence                                                    Filename
+----------      -----------                                                    --------
+32.000          Persistent           [Datastore_3_2TB] vcf-m01-esx01/vcf-m01-esx01.vmdk
+
+[11-08-2024_09:21:01] Powering On vcf-m01-esx01 ...
+[11-08-2024_09:21:01] Deploying Nested ESXi VM vcf-m01-esx02 ...
+[11-08-2024_09:21:13] Adding vmnic2/vmnic3 to Nested ESXi VMs ...
+
+Name                 Type            NetworkName     MacAddress         WakeOnLan
+                                                                          Enabled
+----                 ----            -----------     ----------         ---------
+Network adapter 3    Vmxnet3         VMs             00:50:56:88:7a:dd      False
+
+
+Name                 Type            NetworkName     MacAddress         WakeOnLan
+                                                                          Enabled
+----                 ----            -----------     ----------         ---------
+Network adapter 4    Vmxnet3         VMs             00:50:56:88:8f:c2      False
+
+
+Name                 Value                Type                 Description
+----                 -----                ----                 -----------
+ethernet2.filter4.n… dvfilter-maclearn    VM                   
+
+
+Name                 Value                Type                 Description
+----                 -----                ----                 -----------
+ethernet2.filter4.o… failOpen             VM                   
+
+
+Name                 Value                Type                 Description
+----                 -----                ----                 -----------
+ethernet3.filter4.n… dvfilter-maclearn    VM                   
+
+
+Name                 Value                Type                 Description
+----                 -----                ----                 -----------
+ethernet3.filter4.o… failOpen             VM                   
+
+[11-08-2024_09:21:24] Updating vCPU Count to 12 & vMEM to 78 GB ...
+
+Name                 PowerState Num CPUs MemoryGB
+----                 ---------- -------- --------
+vcf-m01-esx02        PoweredOff 12       78.000
+
+[11-08-2024_09:21:25] Updating vSAN Cache VMDK size to 4 GB & Capacity VMDK size to 500 GB ...
+
+CapacityGB      Persistence                                                    Filename
+----------      -----------                                                    --------
+4.000           Persistent           …tastore_3_2TB] vcf-m01-esx02/vcf-m01-esx02_1.vmdk
+
+
+CapacityGB      Persistence                                                    Filename
+----------      -----------                                                    --------
+500.000         Persistent           …tastore_3_2TB] vcf-m01-esx02/vcf-m01-esx02_2.vmdk
+
+[11-08-2024_09:21:31] Updating vSAN Boot Disk size to 32 GB ...
+
+CapacityGB      Persistence                                                    Filename
+----------      -----------                                                    --------
+32.000          Persistent           [Datastore_3_2TB] vcf-m01-esx02/vcf-m01-esx02.vmdk
+
+[11-08-2024_09:21:34] Powering On vcf-m01-esx02 ...
+[11-08-2024_09:21:34] Deploying Nested ESXi VM vcf-m01-esx03 ...
+[11-08-2024_09:21:49] Adding vmnic2/vmnic3 to Nested ESXi VMs ...
+
+Name                 Type            NetworkName     MacAddress         WakeOnLan
+                                                                          Enabled
+----                 ----            -----------     ----------         ---------
+Network adapter 3    Vmxnet3         VMs             00:50:56:88:79:99      False
+
+
+Name                 Type            NetworkName     MacAddress         WakeOnLan
+                                                                          Enabled
+----                 ----            -----------     ----------         ---------
+Network adapter 4    Vmxnet3         VMs             00:50:56:88:85:67      False
+
+
+Name                 Value                Type                 Description
+----                 -----                ----                 -----------
+ethernet2.filter4.n… dvfilter-maclearn    VM                   
+
+
+Name                 Value                Type                 Description
+----                 -----                ----                 -----------
+ethernet2.filter4.o… failOpen             VM                   
+
+
+Name                 Value                Type                 Description
+----                 -----                ----                 -----------
+ethernet3.filter4.n… dvfilter-maclearn    VM                   
+
+
+Name                 Value                Type                 Description
+----                 -----                ----                 -----------
+ethernet3.filter4.o… failOpen             VM                   
+
+[11-08-2024_09:22:00] Updating vCPU Count to 12 & vMEM to 78 GB ...
+
+Name                 PowerState Num CPUs MemoryGB
+----                 ---------- -------- --------
+vcf-m01-esx03        PoweredOff 12       78.000
+
+[11-08-2024_09:22:02] Updating vSAN Cache VMDK size to 4 GB & Capacity VMDK size to 500 GB ...
+
+CapacityGB      Persistence                                                    Filename
+----------      -----------                                                    --------
+4.000           Persistent           …tastore_3_2TB] vcf-m01-esx03/vcf-m01-esx03_1.vmdk
+
+
+CapacityGB      Persistence                                                    Filename
+----------      -----------                                                    --------
+500.000         Persistent           …tastore_3_2TB] vcf-m01-esx03/vcf-m01-esx03_2.vmdk
+
+[11-08-2024_09:22:08] Updating vSAN Boot Disk size to 32 GB ...
+
+CapacityGB      Persistence                                                    Filename
+----------      -----------                                                    --------
+32.000          Persistent           [Datastore_3_2TB] vcf-m01-esx03/vcf-m01-esx03.vmdk
+
+[11-08-2024_09:22:11] Powering On vcf-m01-esx03 ...
+[11-08-2024_09:22:11] Deploying Nested ESXi VM vcf-m01-esx04 ...
+[11-08-2024_09:22:29] Adding vmnic2/vmnic3 to Nested ESXi VMs ...
+
+Name                 Type            NetworkName     MacAddress         WakeOnLan
+                                                                          Enabled
+----                 ----            -----------     ----------         ---------
+Network adapter 3    Vmxnet3         VMs             00:50:56:88:a3:70      False
+
+
+Name                 Type            NetworkName     MacAddress         WakeOnLan
+                                                                          Enabled
+----                 ----            -----------     ----------         ---------
+Network adapter 4    Vmxnet3         VMs             00:50:56:88:82:4d      False
+
+
+Name                 Value                Type                 Description
+----                 -----                ----                 -----------
+ethernet2.filter4.n… dvfilter-maclearn    VM                   
+
+
+Name                 Value                Type                 Description
+----                 -----                ----                 -----------
+ethernet2.filter4.o… failOpen             VM                   
+
+
+Name                 Value                Type                 Description
+----                 -----                ----                 -----------
+ethernet3.filter4.n… dvfilter-maclearn    VM                   
+
+
+Name                 Value                Type                 Description
+----                 -----                ----                 -----------
+ethernet3.filter4.o… failOpen             VM                   
+
+[11-08-2024_09:22:40] Updating vCPU Count to 12 & vMEM to 78 GB ...
+
+Name                 PowerState Num CPUs MemoryGB
+----                 ---------- -------- --------
+vcf-m01-esx04        PoweredOff 12       78.000
+
+[11-08-2024_09:22:41] Updating vSAN Cache VMDK size to 4 GB & Capacity VMDK size to 500 GB ...
+
+CapacityGB      Persistence                                                    Filename
+----------      -----------                                                    --------
+4.000           Persistent           …tastore_3_2TB] vcf-m01-esx04/vcf-m01-esx04_1.vmdk
+
+
+CapacityGB      Persistence                                                    Filename
+----------      -----------                                                    --------
+500.000         Persistent           …tastore_3_2TB] vcf-m01-esx04/vcf-m01-esx04_2.vmdk
+
+[11-08-2024_09:22:47] Updating vSAN Boot Disk size to 32 GB ...
+
+CapacityGB      Persistence                                                    Filename
+----------      -----------                                                    --------
+32.000          Persistent           [Datastore_3_2TB] vcf-m01-esx04/vcf-m01-esx04.vmdk
+
+[11-08-2024_09:22:50] Powering On vcf-m01-esx04 ...
+[11-08-2024_09:22:50] Deploying Nested ESXi VM vcf-m01-esx05 ...
+[11-08-2024_09:23:07] Adding vmnic2/vmnic3 to Nested ESXi VMs ...
+
+Name                 Type            NetworkName     MacAddress         WakeOnLan
+                                                                          Enabled
+----                 ----            -----------     ----------         ---------
+Network adapter 3    Vmxnet3         VMs             00:50:56:88:5c:50      False
+
+
+Name                 Type            NetworkName     MacAddress         WakeOnLan
+                                                                          Enabled
+----                 ----            -----------     ----------         ---------
+Network adapter 4    Vmxnet3         VMs             00:50:56:88:1c:b6      False
+
+
+Name                 Value                Type                 Description
+----                 -----                ----                 -----------
+ethernet2.filter4.n… dvfilter-maclearn    VM                   
+
+
+Name                 Value                Type                 Description
+----                 -----                ----                 -----------
+ethernet2.filter4.o… failOpen             VM                   
+
+
+Name                 Value                Type                 Description
+----                 -----                ----                 -----------
+ethernet3.filter4.n… dvfilter-maclearn    VM                   
+
+
+Name                 Value                Type                 Description
+----                 -----                ----                 -----------
+ethernet3.filter4.o… failOpen             VM                   
+
+[11-08-2024_09:23:18] Updating vCPU Count to 8 & vMEM to 36 GB ...
+
+Name                 PowerState Num CPUs MemoryGB
+----                 ---------- -------- --------
+vcf-m01-esx05        PoweredOff 8        36.000
+
+[11-08-2024_09:23:19] Updating vSAN Cache VMDK size to 4 GB & Capacity VMDK size to 250 GB ...
+
+CapacityGB      Persistence                                                    Filename
+----------      -----------                                                    --------
+4.000           Persistent           …tastore_3_2TB] vcf-m01-esx05/vcf-m01-esx05_1.vmdk
+
+
+CapacityGB      Persistence                                                    Filename
+----------      -----------                                                    --------
+250.000         Persistent           …tastore_3_2TB] vcf-m01-esx05/vcf-m01-esx05_2.vmdk
+
+[11-08-2024_09:23:25] Updating vSAN Boot Disk size to 32 GB ...
+
+CapacityGB      Persistence                                                    Filename
+----------      -----------                                                    --------
+32.000          Persistent           [Datastore_3_2TB] vcf-m01-esx05/vcf-m01-esx05.vmdk
+
+[11-08-2024_09:23:28] Powering On vcf-m01-esx05 ...
+[11-08-2024_09:23:28] Deploying Nested ESXi VM vcf-m01-esx06 ...
+[11-08-2024_09:23:48] Adding vmnic2/vmnic3 to Nested ESXi VMs ...
+
+Name                 Type            NetworkName     MacAddress         WakeOnLan
+                                                                          Enabled
+----                 ----            -----------     ----------         ---------
+Network adapter 3    Vmxnet3         VMs             00:50:56:88:c6:e5      False
+
+
+Name                 Type            NetworkName     MacAddress         WakeOnLan
+                                                                          Enabled
+----                 ----            -----------     ----------         ---------
+Network adapter 4    Vmxnet3         VMs             00:50:56:88:e2:7a      False
+
+
+Name                 Value                Type                 Description
+----                 -----                ----                 -----------
+ethernet2.filter4.n… dvfilter-maclearn    VM                   
+
+
+Name                 Value                Type                 Description
+----                 -----                ----                 -----------
+ethernet2.filter4.o… failOpen             VM                   
+
+
+Name                 Value                Type                 Description
+----                 -----                ----                 -----------
+ethernet3.filter4.n… dvfilter-maclearn    VM                   
+
+
+Name                 Value                Type                 Description
+----                 -----                ----                 -----------
+ethernet3.filter4.o… failOpen             VM                   
+
+[11-08-2024_09:23:59] Updating vCPU Count to 8 & vMEM to 36 GB ...
+
+Name                 PowerState Num CPUs MemoryGB
+----                 ---------- -------- --------
+vcf-m01-esx06        PoweredOff 8        36.000
+
+[11-08-2024_09:24:00] Updating vSAN Cache VMDK size to 4 GB & Capacity VMDK size to 250 GB ...
+
+CapacityGB      Persistence                                                    Filename
+----------      -----------                                                    --------
+4.000           Persistent           …tastore_3_2TB] vcf-m01-esx06/vcf-m01-esx06_1.vmdk
+
+
+CapacityGB      Persistence                                                    Filename
+----------      -----------                                                    --------
+250.000         Persistent           …tastore_3_2TB] vcf-m01-esx06/vcf-m01-esx06_2.vmdk
+
+[11-08-2024_09:24:06] Updating vSAN Boot Disk size to 32 GB ...
+
+CapacityGB      Persistence                                                    Filename
+----------      -----------                                                    --------
+32.000          Persistent           [Datastore_3_2TB] vcf-m01-esx06/vcf-m01-esx06.vmdk
+
+[11-08-2024_09:24:09] Powering On vcf-m01-esx06 ...
+[11-08-2024_09:24:09] Deploying Nested ESXi VM vcf-m01-esx07 ...
+[11-08-2024_09:24:28] Adding vmnic2/vmnic3 to Nested ESXi VMs ...
+
+Name                 Type            NetworkName     MacAddress         WakeOnLan
+                                                                          Enabled
+----                 ----            -----------     ----------         ---------
+Network adapter 3    Vmxnet3         VMs             00:50:56:88:88:72      False
+
+
+Name                 Type            NetworkName     MacAddress         WakeOnLan
+                                                                          Enabled
+----                 ----            -----------     ----------         ---------
+Network adapter 4    Vmxnet3         VMs             00:50:56:88:f2:cc      False
+
+
+Name                 Value                Type                 Description
+----                 -----                ----                 -----------
+ethernet2.filter4.n… dvfilter-maclearn    VM                   
+
+
+Name                 Value                Type                 Description
+----                 -----                ----                 -----------
+ethernet2.filter4.o… failOpen             VM                   
+
+
+Name                 Value                Type                 Description
+----                 -----                ----                 -----------
+ethernet3.filter4.n… dvfilter-maclearn    VM                   
+
+
+Name                 Value                Type                 Description
+----                 -----                ----                 -----------
+ethernet3.filter4.o… failOpen             VM                   
+
+[11-08-2024_09:24:41] Updating vCPU Count to 8 & vMEM to 36 GB ...
+
+Name                 PowerState Num CPUs MemoryGB
+----                 ---------- -------- --------
+vcf-m01-esx07        PoweredOff 8        36.000
+
+[11-08-2024_09:24:42] Updating vSAN Cache VMDK size to 4 GB & Capacity VMDK size to 250 GB ...
+
+CapacityGB      Persistence                                                    Filename
+----------      -----------                                                    --------
+4.000           Persistent           …tastore_3_2TB] vcf-m01-esx07/vcf-m01-esx07_1.vmdk
+
+
+CapacityGB      Persistence                                                    Filename
+----------      -----------                                                    --------
+250.000         Persistent           …tastore_3_2TB] vcf-m01-esx07/vcf-m01-esx07_2.vmdk
+
+[11-08-2024_09:24:48] Updating vSAN Boot Disk size to 32 GB ...
+
+CapacityGB      Persistence                                                    Filename
+----------      -----------                                                    --------
+32.000          Persistent           [Datastore_3_2TB] vcf-m01-esx07/vcf-m01-esx07.vmdk
+
+[11-08-2024_09:24:51] Powering On vcf-m01-esx07 ...
+[11-08-2024_09:24:51] Deploying Nested ESXi VM vcf-m01-esx08 ...
+[11-08-2024_09:25:13] Adding vmnic2/vmnic3 to Nested ESXi VMs ...
+
+Name                 Type            NetworkName     MacAddress         WakeOnLan
+                                                                          Enabled
+----                 ----            -----------     ----------         ---------
+Network adapter 3    Vmxnet3         VMs             00:50:56:88:eb:89      False
+
+
+Name                 Type            NetworkName     MacAddress         WakeOnLan
+                                                                          Enabled
+----                 ----            -----------     ----------         ---------
+Network adapter 4    Vmxnet3         VMs             00:50:56:88:21:42      False
+
+
+Name                 Value                Type                 Description
+----                 -----                ----                 -----------
+ethernet2.filter4.n… dvfilter-maclearn    VM                   
+
+
+Name                 Value                Type                 Description
+----                 -----                ----                 -----------
+ethernet2.filter4.o… failOpen             VM                   
+
+
+Name                 Value                Type                 Description
+----                 -----                ----                 -----------
+ethernet3.filter4.n… dvfilter-maclearn    VM                   
+
+
+Name                 Value                Type                 Description
+----                 -----                ----                 -----------
+ethernet3.filter4.o… failOpen             VM                   
+
+[11-08-2024_09:25:25] Updating vCPU Count to 8 & vMEM to 36 GB ...
+
+Name                 PowerState Num CPUs MemoryGB
+----                 ---------- -------- --------
+vcf-m01-esx08        PoweredOff 8        36.000
+
+[11-08-2024_09:25:26] Updating vSAN Cache VMDK size to 4 GB & Capacity VMDK size to 250 GB ...
+
+CapacityGB      Persistence                                                    Filename
+----------      -----------                                                    --------
+4.000           Persistent           …tastore_3_2TB] vcf-m01-esx08/vcf-m01-esx08_1.vmdk
+
+
+CapacityGB      Persistence                                                    Filename
+----------      -----------                                                    --------
+250.000         Persistent           …tastore_3_2TB] vcf-m01-esx08/vcf-m01-esx08_2.vmdk
+
+[11-08-2024_09:25:32] Updating vSAN Boot Disk size to 32 GB ...
+
+CapacityGB      Persistence                                                    Filename
+----------      -----------                                                    --------
+32.000          Persistent           [Datastore_3_2TB] vcf-m01-esx08/vcf-m01-esx08.vmdk
+
+[11-08-2024_09:25:35] Powering On vcf-m01-esx08 ...
+[11-08-2024_09:25:35] Deploying Cloud Builder VM vcf-m01-cb01 ...
+[11-08-2024_09:39:11] Powering On vcf-m01-cb01 ...
+[11-08-2024_09:39:11] Creating vApp Nested-VCF-Lab-glGfcbvO ...
+[11-08-2024_09:39:13] Moving Nested ESXi VMs into Nested-VCF-Lab-glGfcbvO vApp ...
+
+Name                 PowerState Num CPUs MemoryGB
+----                 ---------- -------- --------
+vcf-m01-esx01        PoweredOn  12       78.000
+
+
+Name                 PowerState Num CPUs MemoryGB
+----                 ---------- -------- --------
+vcf-m01-esx02        PoweredOn  12       78.000
+
+
+Name                 PowerState Num CPUs MemoryGB
+----                 ---------- -------- --------
+vcf-m01-esx03        PoweredOn  12       78.000
+
+
+Name                 PowerState Num CPUs MemoryGB
+----                 ---------- -------- --------
+vcf-m01-esx04        PoweredOn  12       78.000
+
+[11-08-2024_09:39:19] Moving Nested ESXi VMs into Nested-VCF-Lab-glGfcbvO vApp ...
+
+Name                 PowerState Num CPUs MemoryGB
+----                 ---------- -------- --------
+vcf-m01-esx05        PoweredOn  8        36.000
+
+
+Name                 PowerState Num CPUs MemoryGB
+----                 ---------- -------- --------
+vcf-m01-esx06        PoweredOn  8        36.000
+
+
+Name                 PowerState Num CPUs MemoryGB
+----                 ---------- -------- --------
+vcf-m01-esx07        PoweredOn  8        36.000
+
+
+Name                 PowerState Num CPUs MemoryGB
+----                 ---------- -------- --------
+vcf-m01-esx08        PoweredOn  8        36.000
+
+[11-08-2024_09:39:26] Moving vcf-m01-cb01 into Nested-VCF-Lab-glGfcbvO vApp ...
+
+Name                 PowerState Num CPUs MemoryGB
+----                 ---------- -------- --------
+vcf-m01-cb01         PoweredOn  4        4.000
+
+[11-08-2024_09:39:28] Moving Nested-VCF-Lab-glGfcbvO to VM Folder VCF-VMs ...
+
+Name                 Status    CpuSharesL CpuReserva CpuLimitMh MemSharesL MemReservationG      MemLimitGB
+                                     evel    tionMhz          z       evel               B
+----                 ------    ---------- ---------- ---------- ---------- ---------------      ----------
+Nested-VCF-Lab-glGf… Started       Normal          0         -1     Normal           0.000          -1.000
+
+[11-08-2024_09:39:29] Generating Cloud Builder VCF Management Domain configuration deployment file vcf-mgmt.json
+[11-08-2024_09:39:29] Generating Cloud Builder VCF Workload Domain Host Commission file vcf-commission-host-ui.json and vcf-commission-host-api.json for SDDC Manager UI and API
+[11-08-2024_09:39:29] Starting VCF Deployment Bringup ...
+[11-08-2024_09:39:29] Waiting for Cloud Builder to be ready ...
+[11-08-2024_09:39:34] Cloud Builder is not ready yet, sleeping for 120 seconds ...
+[11-08-2024_09:41:34] Cloud Builder is not ready yet, sleeping for 120 seconds ...
+[11-08-2024_09:43:35] Cloud Builder is now ready!
+[11-08-2024_09:43:35] Submitting VCF Bringup request ...
+[11-08-2024_09:43:43] Open browser to the VMware Cloud Builder UI (https://vcf-m01-cb001.bulllies.local) to monitor deployment progress ...
+[11-08-2024_09:43:43] Disconnecting from vcmain.bullies.local ...
+[11-08-2024_09:43:43] VCF Lab Deployment Complete!
+[11-08-2024_09:43:43] StartTime: 11/08/2024 21:20:25
+[11-08-2024_09:43:43] EndTime: 11/08/2024 21:43:43
+[11-08-2024_09:43:43] Duration: 23.3 minutes to Deploy Nested ESXi, CloudBuilder & initiate VCF Bringup
+[11-08-2024_10:03:18] Connecting to Management vCenter Server vcmain.bullies.local ...
+[11-08-2024_10:03:20] Deploying Nested ESXi VM vcf-m01-esx01 ...
+[11-08-2024_10:03:44] Adding vmnic2/vmnic3 to Nested ESXi VMs ...
+
+Name                 Type            NetworkName     MacAddress         WakeOnLan
+                                                                          Enabled
+----                 ----            -----------     ----------         ---------
+Network adapter 3    Vmxnet3         VMs             00:50:56:88:d7:94      False
+
+
+Name                 Type            NetworkName     MacAddress         WakeOnLan
+                                                                          Enabled
+----                 ----            -----------     ----------         ---------
+Network adapter 4    Vmxnet3         VMs             00:50:56:88:b8:46      False
+
+
+Name                 Value                Type                 Description
+----                 -----                ----                 -----------
+ethernet2.filter4.n… dvfilter-maclearn    VM                   
+
+
+Name                 Value                Type                 Description
+----                 -----                ----                 -----------
+ethernet2.filter4.o… failOpen             VM                   
+
+
+Name                 Value                Type                 Description
+----                 -----                ----                 -----------
+ethernet3.filter4.n… dvfilter-maclearn    VM                   
+
+
+Name                 Value                Type                 Description
+----                 -----                ----                 -----------
+ethernet3.filter4.o… failOpen             VM                   
+
+[11-08-2024_10:03:57] Updating vCPU Count to 12 & vMEM to 78 GB ...
+
+Name                 PowerState Num CPUs MemoryGB
+----                 ---------- -------- --------
+vcf-m01-esx01        PoweredOff 12       78.000
+
+[11-08-2024_10:03:58] Updating vSAN Cache VMDK size to 4 GB & Capacity VMDK size to 500 GB ...
+
+CapacityGB      Persistence                                                    Filename
+----------      -----------                                                    --------
+4.000           Persistent           …store_3_2TB] vcf-m01-esx01_1/vcf-m01-esx01_1.vmdk
+
+
+CapacityGB      Persistence                                                    Filename
+----------      -----------                                                    --------
+500.000         Persistent           …store_3_2TB] vcf-m01-esx01_1/vcf-m01-esx01_2.vmdk
+
+[11-08-2024_10:04:04] Updating vSAN Boot Disk size to 32 GB ...
+
+CapacityGB      Persistence                                                    Filename
+----------      -----------                                                    --------
+32.000          Persistent           …tastore_3_2TB] vcf-m01-esx01_1/vcf-m01-esx01.vmdk
+
+[11-08-2024_10:04:07] Powering On vcf-m01-esx01 ...
+[11-08-2024_10:04:07] Deploying Nested ESXi VM vcf-m01-esx02 ...
+[11-08-2024_10:04:19] Adding vmnic2/vmnic3 to Nested ESXi VMs ...
+
+Name                 Type            NetworkName     MacAddress         WakeOnLan
+                                                                          Enabled
+----                 ----            -----------     ----------         ---------
+Network adapter 3    Vmxnet3         VMs             00:50:56:88:37:b0      False
+
+
+Name                 Type            NetworkName     MacAddress         WakeOnLan
+                                                                          Enabled
+----                 ----            -----------     ----------         ---------
+Network adapter 4    Vmxnet3         VMs             00:50:56:88:a7:fb      False
+
+
+Name                 Value                Type                 Description
+----                 -----                ----                 -----------
+ethernet2.filter4.n… dvfilter-maclearn    VM                   
+
+
+Name                 Value                Type                 Description
+----                 -----                ----                 -----------
+ethernet2.filter4.o… failOpen             VM                   
+
+
+Name                 Value                Type                 Description
+----                 -----                ----                 -----------
+ethernet3.filter4.n… dvfilter-maclearn    VM                   
+
+
+Name                 Value                Type                 Description
+----                 -----                ----                 -----------
+ethernet3.filter4.o… failOpen             VM                   
+
+[11-08-2024_10:04:30] Updating vCPU Count to 12 & vMEM to 78 GB ...
+
+Name                 PowerState Num CPUs MemoryGB
+----                 ---------- -------- --------
+vcf-m01-esx02        PoweredOff 12       78.000
+
+[11-08-2024_10:04:31] Updating vSAN Cache VMDK size to 4 GB & Capacity VMDK size to 500 GB ...
+
+CapacityGB      Persistence                                                    Filename
+----------      -----------                                                    --------
+4.000           Persistent           …tastore_3_2TB] vcf-m01-esx02/vcf-m01-esx02_1.vmdk
+
+
+CapacityGB      Persistence                                                    Filename
+----------      -----------                                                    --------
+500.000         Persistent           …tastore_3_2TB] vcf-m01-esx02/vcf-m01-esx02_2.vmdk
+
+[11-08-2024_10:04:37] Updating vSAN Boot Disk size to 32 GB ...
