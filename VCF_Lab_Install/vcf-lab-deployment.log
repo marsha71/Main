@@ -815,3 +815,10 @@ CapacityGB      Persistence                                                    F
 500.000         Persistent           …tastore_3_2TB] vcf-m01-esx02/vcf-m01-esx02_2.vmdk
 
 [11-08-2024_10:04:37] Updating vSAN Boot Disk size to 32 GB ...
+
+CapacityGB      Persistence                                                    Filename
+----------      -----------                                                    --------
+32.000          Persistent           [Datastore_3_2TB] vcf-m01-esx02/vcf-m01-esx02.vmdk
+
+[11-08-2024_10:04:40] Powering On vcf-m01-esx02 ...
+[11-08-2024_10:04:41] Deploying Nested ESXi VM vcf-m01-esx03 ...
