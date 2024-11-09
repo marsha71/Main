@@ -4,7 +4,7 @@
 
 
 # vCenter Server used to deploy VMware Cloud Foundation Lab
-$VIServer   = "VCMain.bullies.local"
+$VIServer   = "10.0.0.111"
 $VIUsername = "administrator@bullies.local"
 $VIPassword = "VMware123!"
 
