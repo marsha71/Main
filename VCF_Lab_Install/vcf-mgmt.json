@@ -14,7 +14,7 @@
     "nameserver": "10.0.0.114"
   },
   "sddcManagerSpec": {
-    "ipAddress": "10.0.0.212",
+    "ipAddress": "10.0.1.212",
     "netmask": "255.255.0.0",
     "hostname": "vcf-m01-sddcm01",
     "localUserPassword": "VMware123!VMware123!",
@@ -35,7 +35,7 @@
   "networkSpecs": [
     {
       "networkType": "MANAGEMENT",
-      "subnet": "10.0.0.0/16",
+      "subnet": "10.0.1.0/24",
       "gateway": "10.0.0.1",
       "vlanId": "0",
       "mtu": "1500",
@@ -48,16 +48,16 @@
     },
     {
       "networkType": "VMOTION",
-      "subnet": "10.0.0.0/16",
-      "gateway": "10.0.0.1",
+      "subnet": "10.0.2.0/24",
+      "gateway": "10.0.2.1",
       "vlanId": "0",
       "mtu": "9000",
       "portGroupKey": "vcf-m01-cl01-vds01-pg-vmotion",
       "association": "vcf-m01-dc01",
       "includeIpAddressRanges": [
         {
-          "endIpAddress": "10.0.0.118",
-          "startIpAddress": "10.0.0.101"
+          "endIpAddress": "10.0.2.118",
+          "startIpAddress": "10.0.2.101"
         }
       ],
       "standbyUplinks": [],
@@ -68,15 +68,15 @@
     },
     {
       "networkType": "VSAN",
-      "subnet": "10.0.0.0/16",
-      "gateway": "10.0.0.1",
+      "subnet": "10.0.3.0/24",
+      "gateway": "10.0.3.1",
       "vlanId": "0",
       "mtu": "9000",
       "portGroupKey": "vcf-m01-cl01-vds01-pg-vsan",
       "includeIpAddressRanges": [
         {
-          "endIpAddress": "10.0.0.118",
-          "startIpAddress": "10.0.0.101"
+          "endIpAddress": "10.0.3.118",
+          "startIpAddress": "10.0.3.101"
         }
       ],
       "standbyUplinks": [],
@@ -91,7 +91,7 @@
     "nsxtManagers": [
       {
         "hostname": "vcf-m01-nsx01a",
-        "ip": "10.0.0.11"
+        "ip": "10.4.0.11"
       }
     ],
     "rootNsxtManagerPassword": "VMware1!VMware1!",
@@ -107,7 +107,7 @@
       "zoneName": "vcf-m01-tz-vlan01",
       "networkName": "netName-vlan"
     },
-    "vip": "10.0.0.235",
+    "vip": "10.4.0.235",
     "vipFqdn": "vcf-m01-nsx01",
     "nsxtLicense": "",
     "transportVlanId": "2005",
@@ -116,12 +116,12 @@
       "description": "ESXi Host Overlay TEP IP Pool",
       "subnets": [
         {
-          "gateway": "10.0.0.1",
-          "cidr": "10.0.0.0/16",
+          "gateway": "10.0.4.1",
+          "cidr": "10.0.4.0/24",
           "ipAddressPoolRanges": [
             {
-              "start": "10.0.0.101",
-              "end": "10.0.0.118"
+              "start": "10.0.4.101",
+              "end": "10.0.4.118"
             }
           ]
         }
@@ -270,7 +270,7 @@
     }
   ],
   "vcenterSpec": {
-    "vcenterIp": "10.0.0.234",
+    "vcenterIp": "10.0.1.234",
     "vcenterHostname": "vcf-m01-vc01",
     "vcenterId": "vcenter-1",
     "licenseFile": "",
@@ -282,8 +282,8 @@
     {
       "association": "vcf-m01-dc01",
       "ipAddressPrivate": {
-        "ipAddress": "10.0.0.206",
-        "cidr": "10.0.0.0/16",
+        "ipAddress": "10.1.0.206",
+        "cidr": "10.0.1.0/24",
         "gateway": "10.0.0.1"
       },
       "hostname": "vcf-m01-esx01",
@@ -299,8 +299,8 @@
     {
       "association": "vcf-m01-dc01",
       "ipAddressPrivate": {
-        "ipAddress": "10.0.0.207",
-        "cidr": "10.0.0.0/16",
+        "ipAddress": "10.1.0.207",
+        "cidr": "10.0.1.0/24",
         "gateway": "10.0.0.1"
       },
       "hostname": "vcf-m01-esx02",
@@ -316,8 +316,8 @@
     {
       "association": "vcf-m01-dc01",
       "ipAddressPrivate": {
-        "ipAddress": "10.0.0.208",
-        "cidr": "10.0.0.0/16",
+        "ipAddress": "10.1.0.208",
+        "cidr": "10.0.1.0/24",
         "gateway": "10.0.0.1"
       },
       "hostname": "vcf-m01-esx03",
@@ -333,8 +333,8 @@
     {
       "association": "vcf-m01-dc01",
       "ipAddressPrivate": {
-        "ipAddress": "10.0.0.209",
-        "cidr": "10.0.0.0/16",
+        "ipAddress": "10.1.0.209",
+        "cidr": "10.0.1.0/24",
         "gateway": "10.0.0.1"
       },
       "hostname": "vcf-m01-esx04",
