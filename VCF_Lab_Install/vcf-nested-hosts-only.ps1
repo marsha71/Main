@@ -12,7 +12,7 @@ $VIPassword = "VMware123!"
 
 # Full Path to both the Nested ESXi & Cloud Builder OVA
 #$NestedESXiApplianceOVA = "/Users/dalehassinger/Downloads/Nested_ESXi8.0u3b_Appliance_Template_v1.ova"
-$NestedESXiApplianceOVA = "/Users/mc006068broadcom.net/Downloads/Nested_ESXi8_0u3b_Appliance_Template_v1.ova"
+$NestedESXiApplianceOVA = "/Users/mc006068broadcom.net/Downloads/Nested_ESXi8.0u3b_Appliance_Template_v1.ova"
 
 
 # Nested ESXi VMs for Management Domain
