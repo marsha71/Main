@@ -288,7 +288,7 @@
         "cidr": "10.0.1.0/24",
         "gateway": "10.0.0.1"
       },
-      "hostname": "VCF-DDC-ESX185",
+      "hostname": "VCF-DC-ESX100",
       "credentials": {
         "username": "root",
         "password": "VMware123!"
