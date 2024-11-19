@@ -56,7 +56,7 @@ $SddcManagerLocalPassword = "VMware123!VMware123!"
 
 
 $NestedESXiHostnameToIPsForManagementDomain = @{
-    "VCF-DDC-ESX185" = "10.0.1.205"
+    "VCF-DC-ESX100" = "10.0.1.205"
 }
 
 
