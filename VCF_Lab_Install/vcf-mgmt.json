@@ -15,7 +15,7 @@
   },
   "sddcManagerSpec": {
     "ipAddress": "10.0.1.212",
-    "netmask": "255.255.0.0",
+    "netmask": "255.255.255.0",
     "hostname": "vcf-m01-sddcm01",
     "localUserPassword": "VMware123!VMware123!",
     "vcenterId": "vcenter-1",
@@ -36,7 +36,7 @@
     {
       "networkType": "MANAGEMENT",
       "subnet": "10.0.1.0/24",
-      "gateway": "10.0.0.1",
+      "gateway": "10.0.1.1",
       "vlanId": "0",
       "mtu": "1500",
       "portGroupKey": "vcf-m01-cl01-vds01-pg-mgmt",
@@ -91,7 +91,7 @@
     "nsxtManagers": [
       {
         "hostname": "vcf-m01-nsx01a",
-        "ip": "10.4.0.11"
+        "ip": "10.0.1.11"
       }
     ],
     "rootNsxtManagerPassword": "VMware123!VMware123!",
@@ -107,7 +107,7 @@
       "zoneName": "vcf-m01-tz-vlan01",
       "networkName": "netName-vlan"
     },
-    "vip": "10.4.0.235",
+    "vip": "10.0.1.241",
     "vipFqdn": "vcf-m01-nsx01",
     "nsxtLicense": "",
     "transportVlanId": "2005",
@@ -284,7 +284,7 @@
       "ipAddressPrivate": {
         "ipAddress": "10.0.1.206",
         "cidr": "10.0.1.0/24",
-        "gateway": "10.0.0.1"
+        "gateway": "10.0.1.1"
       },
       "hostname": "vcf-m01-esx01",
       "credentials": {
@@ -301,7 +301,7 @@
       "ipAddressPrivate": {
         "ipAddress": "10.0.1.207",
         "cidr": "10.0.1.0/24",
-        "gateway": "10.0.0.1"
+        "gateway": "10.0.1.1"
       },
       "hostname": "vcf-m01-esx02",
       "credentials": {
@@ -318,7 +318,7 @@
       "ipAddressPrivate": {
         "ipAddress": "10.0.1.208",
         "cidr": "10.0.1.0/24",
-        "gateway": "10.0.0.1"
+        "gateway": "10.0.1.1"
       },
       "hostname": "vcf-m01-esx03",
       "credentials": {
@@ -335,7 +335,7 @@
       "ipAddressPrivate": {
         "ipAddress": "10.0.1.209",
         "cidr": "10.0.1.0/24",
-        "gateway": "10.0.0.1"
+        "gateway": "10.0.1.1"
       },
       "hostname": "vcf-m01-esx04",
       "credentials": {
