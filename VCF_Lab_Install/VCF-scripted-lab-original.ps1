@@ -41,11 +41,6 @@ $SddcManagerLocalPassword = "VMware123!VMware123!"
 
 
 
-$NestedESXiHostnameToIPsForManagementDomain = @{
-    "VCF-DDC-ESX205" = "10.0.0.205"
-
-}
-
 # Nested ESXi VMs for Management Domain
 $NestedESXiHostnameToIPsForManagementDomain = @{
     "vcf-m01-esx01"   = "10.0.1.206"
@@ -99,9 +94,9 @@ $EnableVCLM       = $true
 # NSX Configuration
 $NSXManagerSize          = "medium"
 $NSXManagerVIPHostname   = "vcf-m01-nsx01"
-$NSXManagerVIPIP         = "10.4.0.235"
+$NSXManagerVIPIP         = "10.0.1.237"
 $NSXManagerNode1Hostname = "vcf-m01-nsx01a"
-$NSXManagerNode1IP       = "10.4.0.11"
+$NSXManagerNode1IP       = "10.0.1.11"
 $NSXRootPassword         = "VMware123!VMware123!"
 $NSXAdminPassword        = "VMware123!VMware123!"
 $NSXAuditPassword        = "VMware123!VMware123!"
