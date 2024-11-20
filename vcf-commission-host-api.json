@@ -2,28 +2,28 @@
   {
     "fqdn": "vcf-m01-esx05.bullies.local",
     "username": "root",
-    "password": "VMware1!",
+    "password": "VMware123!",
     "networkPoolId": "TBD",
     "storageType": "VSAN"
   },
   {
     "fqdn": "vcf-m01-esx06.bullies.local",
     "username": "root",
-    "password": "VMware1!",
+    "password": "VMware123!",
     "networkPoolId": "TBD",
     "storageType": "VSAN"
   },
   {
     "fqdn": "vcf-m01-esx07.bullies.local",
     "username": "root",
-    "password": "VMware1!",
+    "password": "VMware123!",
     "networkPoolId": "TBD",
     "storageType": "VSAN"
   },
   {
     "fqdn": "vcf-m01-esx08.bullies.local",
     "username": "root",
-    "password": "VMware1!",
+    "password": "VMware123!",
     "networkPoolId": "TBD",
     "storageType": "VSAN"
   }
