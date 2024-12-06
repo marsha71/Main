@@ -90,8 +90,8 @@
     "nsxtManagerSize": "medium",
     "nsxtManagers": [
       {
-        "hostname": "vcf-m01-nsx01a",
-        "ip": "10.0.1.11"
+        "ip": "10.0.1.11",
+        "hostname": "vcf-m01-nsx01a"
       }
     ],
     "rootNsxtManagerPassword": "VMware123!VMware123!",
@@ -119,8 +119,8 @@
           "cidr": "10.0.4.0/24",
           "ipAddressPoolRanges": [
             {
-              "start": "10.0.4.101",
-              "end": "10.0.4.118"
+              "end": "10.0.4.118",
+              "start": "10.0.4.101"
             }
           ],
           "gateway": "10.0.4.1"
@@ -151,40 +151,40 @@
       ],
       "niocSpecs": [
         {
-          "value": "HIGH",
-          "trafficType": "VSAN"
+          "trafficType": "VSAN",
+          "value": "HIGH"
         },
         {
-          "value": "LOW",
-          "trafficType": "VMOTION"
+          "trafficType": "VMOTION",
+          "value": "LOW"
         },
         {
-          "value": "LOW",
-          "trafficType": "VDP"
+          "trafficType": "VDP",
+          "value": "LOW"
         },
         {
-          "value": "HIGH",
-          "trafficType": "VIRTUALMACHINE"
+          "trafficType": "VIRTUALMACHINE",
+          "value": "HIGH"
         },
         {
-          "value": "NORMAL",
-          "trafficType": "MANAGEMENT"
+          "trafficType": "MANAGEMENT",
+          "value": "NORMAL"
         },
         {
-          "value": "LOW",
-          "trafficType": "NFS"
+          "trafficType": "NFS",
+          "value": "LOW"
         },
         {
-          "value": "LOW",
-          "trafficType": "HBR"
+          "trafficType": "HBR",
+          "value": "LOW"
         },
         {
-          "value": "LOW",
-          "trafficType": "FAULTTOLERANCE"
+          "trafficType": "FAULTTOLERANCE",
+          "value": "LOW"
         },
         {
-          "value": "LOW",
-          "trafficType": "ISCSI"
+          "trafficType": "ISCSI",
+          "value": "LOW"
         }
       ],
       "isUsedByNsxt": "true"
