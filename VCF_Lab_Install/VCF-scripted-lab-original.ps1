@@ -90,7 +90,6 @@ $VCSASSOPassword  = "VMware123!"
 $EnableVCLM       = $true
 
 
-
 # NSX Configuration
 $NSXManagerSize          = "medium"
 $NSXManagerVIPHostname   = "vcf-m01-nsx01"
