@@ -36,7 +36,7 @@
     {
       "networkType": "MANAGEMENT",
       "subnet": "10.0.1.0/24",
-      "gateway": "10.0.1.1",
+      "gateway": "10.0.0.2",
       "vlanId": "0",
       "mtu": "1500",
       "portGroupKey": "vcf-m01-cl01-vds01-pg-mgmt",
@@ -56,8 +56,8 @@
       "association": "vcf-m01-dc01",
       "includeIpAddressRanges": [
         {
-          "endIpAddress": "10.0.2.118",
-          "startIpAddress": "10.0.2.101"
+          "startIpAddress": "10.0.2.101",
+          "endIpAddress": "10.0.2.118"
         }
       ],
       "standbyUplinks": [],
@@ -75,8 +75,8 @@
       "portGroupKey": "vcf-m01-cl01-vds01-pg-vsan",
       "includeIpAddressRanges": [
         {
-          "endIpAddress": "10.0.3.118",
-          "startIpAddress": "10.0.3.101"
+          "startIpAddress": "10.0.3.101",
+          "endIpAddress": "10.0.3.118"
         }
       ],
       "standbyUplinks": [],
@@ -117,13 +117,13 @@
       "subnets": [
         {
           "gateway": "10.0.4.1",
+          "cidr": "10.0.4.0/24",
           "ipAddressPoolRanges": [
             {
               "end": "10.0.4.118",
               "start": "10.0.4.101"
             }
-          ],
-          "cidr": "10.0.4.0/24"
+          ]
         }
       ]
     }
@@ -151,40 +151,40 @@
       ],
       "niocSpecs": [
         {
-          "trafficType": "VSAN",
-          "value": "HIGH"
+          "value": "HIGH",
+          "trafficType": "VSAN"
         },
         {
-          "trafficType": "VMOTION",
-          "value": "LOW"
+          "value": "LOW",
+          "trafficType": "VMOTION"
         },
         {
-          "trafficType": "VDP",
-          "value": "LOW"
+          "value": "LOW",
+          "trafficType": "VDP"
         },
         {
-          "trafficType": "VIRTUALMACHINE",
-          "value": "HIGH"
+          "value": "HIGH",
+          "trafficType": "VIRTUALMACHINE"
         },
         {
-          "trafficType": "MANAGEMENT",
-          "value": "NORMAL"
+          "value": "NORMAL",
+          "trafficType": "MANAGEMENT"
         },
         {
-          "trafficType": "NFS",
-          "value": "LOW"
+          "value": "LOW",
+          "trafficType": "NFS"
         },
         {
-          "trafficType": "HBR",
-          "value": "LOW"
+          "value": "LOW",
+          "trafficType": "HBR"
         },
         {
-          "trafficType": "FAULTTOLERANCE",
-          "value": "LOW"
+          "value": "LOW",
+          "trafficType": "FAULTTOLERANCE"
         },
         {
-          "trafficType": "ISCSI",
-          "value": "LOW"
+          "value": "LOW",
+          "trafficType": "ISCSI"
         }
       ],
       "isUsedByNsxt": "true"
@@ -270,7 +270,7 @@
     }
   ],
   "vcenterSpec": {
-    "vcenterIp": "10.0.1.234",
+    "vcenterIp": "10.0.1.238",
     "vcenterHostname": "vcf-m01-vc01",
     "vcenterId": "vcenter-1",
     "licenseFile": "",
@@ -284,7 +284,7 @@
       "ipAddressPrivate": {
         "ipAddress": "10.0.1.206",
         "cidr": "10.0.1.0/24",
-        "gateway": "10.0.1.1"
+        "gateway": "10.0.0.2"
       },
       "hostname": "vcf-m01-esx01",
       "credentials": {
@@ -301,7 +301,7 @@
       "ipAddressPrivate": {
         "ipAddress": "10.0.1.207",
         "cidr": "10.0.1.0/24",
-        "gateway": "10.0.1.1"
+        "gateway": "10.0.0.2"
       },
       "hostname": "vcf-m01-esx02",
       "credentials": {
@@ -318,7 +318,7 @@
       "ipAddressPrivate": {
         "ipAddress": "10.0.1.208",
         "cidr": "10.0.1.0/24",
-        "gateway": "10.0.1.1"
+        "gateway": "10.0.0.2"
       },
       "hostname": "vcf-m01-esx03",
       "credentials": {
@@ -335,7 +335,7 @@
       "ipAddressPrivate": {
         "ipAddress": "10.0.1.209",
         "cidr": "10.0.1.0/24",
-        "gateway": "10.0.1.1"
+        "gateway": "10.0.0.2"
       },
       "hostname": "vcf-m01-esx04",
       "credentials": {

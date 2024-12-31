@@ -300,6 +300,7 @@ if($deployNestedESXiVMsForMgmt -eq 1) {
         $ovfconfig.common.guestinfo.dns.value = $VMDNS
         $ovfconfig.common.guestinfo.domain.value = $VMDomain
         $ovfconfig.common.guestinfo.ntp.value = $VMNTP
+        
         $ovfconfig.common.guestinfo.syslog.value = $VMSyslog
         $ovfconfig.common.guestinfo.password.value = $VMPassword
         $ovfconfig.common.guestinfo.ssh.value = $true
