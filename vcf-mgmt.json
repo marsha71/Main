@@ -1,5 +1,4 @@
 {
-  "subscriptionLicensing": false,
   "skipEsxThumbprintValidation": true,
   "managementPoolName": "vcf-m01-rp01",
   "sddcId": "vcf-m01",
@@ -7,7 +6,7 @@
   "esxLicense": "",
   "ceipEnabled": true,
   "ntpServers": [
-    "time.nist.gov"
+    "10.0.0.114"
   ],
   "dnsSpec": {
     "subdomain": "bullies.local",
@@ -92,7 +91,7 @@
     "nsxtManagers": [
       {
         "hostname": "vcf-m01-nsx01a",
-        "ip": "10.4.0.11"
+        "ip": "10.0.1.11"
       }
     ],
     "rootNsxtManagerPassword": "VMware123!VMware123!",
@@ -108,7 +107,7 @@
       "zoneName": "vcf-m01-tz-vlan01",
       "networkName": "netName-vlan"
     },
-    "vip": "10.4.0.235",
+    "vip": "10.0.1.241",
     "vipFqdn": "vcf-m01-nsx01",
     "nsxtLicense": "",
     "transportVlanId": "2005",
@@ -195,7 +194,6 @@
     "clusterName": "vcf-m01-cl01",
     "vcenterName": "vcenter-1",
     "clusterEvcMode": "",
-    "hostFailuresToTolerate": 0,
     "vmFolders": {
       "MANAGEMENT": "vcf-m01-fd-mgmt",
       "NETWORKING": "vcf-m01-fd-nsx",
@@ -280,7 +278,76 @@
     "storageSize": "",
     "rootVcenterPassword": "VMware123!"
   },
-  "hostSpecs": [],
+  "hostSpecs": [
+    {
+      "association": "vcf-m01-dc01",
+      "ipAddressPrivate": {
+        "ipAddress": "10.0.1.206",
+        "cidr": "10.0.1.0/24",
+        "gateway": "10.0.0.1"
+      },
+      "hostname": "vcf-m01-esx01",
+      "credentials": {
+        "username": "root",
+        "password": "VMware123!"
+      },
+      "sshThumbprint": "SHA256:DUMMY_VALUE",
+      "sslThumbprint": "SHA25_DUMMY_VALUE",
+      "vSwitch": "vSwitch0",
+      "serverId": "host-1"
+    },
+    {
+      "association": "vcf-m01-dc01",
+      "ipAddressPrivate": {
+        "ipAddress": "10.0.1.207",
+        "cidr": "10.0.1.0/24",
+        "gateway": "10.0.0.1"
+      },
+      "hostname": "vcf-m01-esx02",
+      "credentials": {
+        "username": "root",
+        "password": "VMware123!"
+      },
+      "sshThumbprint": "SHA256:DUMMY_VALUE",
+      "sslThumbprint": "SHA25_DUMMY_VALUE",
+      "vSwitch": "vSwitch0",
+      "serverId": "host-2"
+    },
+    {
+      "association": "vcf-m01-dc01",
+      "ipAddressPrivate": {
+        "ipAddress": "10.0.1.208",
+        "cidr": "10.0.1.0/24",
+        "gateway": "10.0.0.1"
+      },
+      "hostname": "vcf-m01-esx03",
+      "credentials": {
+        "username": "root",
+        "password": "VMware123!"
+      },
+      "sshThumbprint": "SHA256:DUMMY_VALUE",
+      "sslThumbprint": "SHA25_DUMMY_VALUE",
+      "vSwitch": "vSwitch0",
+      "serverId": "host-3"
+    },
+    {
+      "association": "vcf-m01-dc01",
+      "ipAddressPrivate": {
+        "ipAddress": "10.0.1.209",
+        "cidr": "10.0.1.0/24",
+        "gateway": "10.0.0.1"
+      },
+      "hostname": "vcf-m01-esx04",
+      "credentials": {
+        "username": "root",
+        "password": "VMware123!"
+      },
+      "sshThumbprint": "SHA256:DUMMY_VALUE",
+      "sslThumbprint": "SHA25_DUMMY_VALUE",
+      "vSwitch": "vSwitch0",
+      "serverId": "host-4"
+    }
+  ],
   "excludedComponents": [
     "NSX-V",
     "AVN",
