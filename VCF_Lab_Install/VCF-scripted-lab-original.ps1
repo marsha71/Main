@@ -24,7 +24,7 @@ $VCFWorkloadDomainAPIJSONFile = "vcf-commission-host-api.json"
 
 # Cloud Builder Configurations
 $CloudbuilderVMHostname    = "vcf-m01-cb01"
-$CloudbuilderFQDN          = "vcf-m01-cb001.bulllies.local"
+$CloudbuilderFQDN          = "vcf-m01-cb01.bullies.local"
 $CloudbuilderIP            = "10.0.1.221"
 $CloudbuilderAdminUsername = "admin"
 $CloudbuilderAdminPassword = "VMware123!VMware123!"
@@ -84,7 +84,7 @@ $NestedESXiNSXTepNetworkCidr     = "10.0.4.0/24"
 
 # vCenter Configuration
 $VCSAName         = "vcf-m01-vc01"
-$VCSAIP           = "10.0.1.234"
+$VCSAIP           = "10.0.1.238"
 $VCSARootPassword = "VMware123!"
 $VCSASSOPassword  = "VMware123!"
 $EnableVCLM       = $true
@@ -106,10 +106,10 @@ $NSXAuditPassword        = "VMware123!VMware123!"
 # This is information from you current vCenter lab environment
 $VMDatacenter = "DC-LAB01"
 $VMCluster    = "VCF-LAB"
-$VMNetwork    = "VMs"
+$VMNetwork    = "VCFMGMT"
 $VMDatastore  = "Datastore_3_2TB"
 $VMNetmask    = "255.255.255.0"
-$VMGateway    = "10.0.0.1"
+$VMGateway    = "10.0.0.2"
 $VMDNS        = "10.0.0.114"
 $VMNTP        = "10.0.0.114"
 $VMPassword   = "VMware123!"
