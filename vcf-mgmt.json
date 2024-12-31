@@ -36,7 +36,7 @@
     {
       "networkType": "MANAGEMENT",
       "subnet": "10.0.1.0/24",
-      "gateway": "10.0.0.1",
+      "gateway": "10.0.1.1",
       "vlanId": "0",
       "mtu": "1500",
       "portGroupKey": "vcf-m01-cl01-vds01-pg-mgmt",
@@ -284,7 +284,7 @@
       "ipAddressPrivate": {
         "ipAddress": "10.0.1.206",
         "cidr": "10.0.1.0/24",
-        "gateway": "10.0.0.1"
+        "gateway": "10.0.1.1"
       },
       "hostname": "vcf-m01-esx01",
       "credentials": {
@@ -301,7 +301,7 @@
       "ipAddressPrivate": {
         "ipAddress": "10.0.1.207",
         "cidr": "10.0.1.0/24",
-        "gateway": "10.0.0.1"
+        "gateway": "10.0.1.1"
       },
       "hostname": "vcf-m01-esx02",
       "credentials": {
@@ -318,7 +318,7 @@
       "ipAddressPrivate": {
         "ipAddress": "10.0.1.208",
         "cidr": "10.0.1.0/24",
-        "gateway": "10.0.0.1"
+        "gateway": "10.0.1.1"
       },
       "hostname": "vcf-m01-esx03",
       "credentials": {
@@ -335,7 +335,7 @@
       "ipAddressPrivate": {
         "ipAddress": "10.0.1.209",
         "cidr": "10.0.1.0/24",
-        "gateway": "10.0.0.1"
+        "gateway": "10.0.1.1"
       },
       "hostname": "vcf-m01-esx04",
       "credentials": {
