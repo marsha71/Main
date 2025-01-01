@@ -90,8 +90,8 @@
     "nsxtManagerSize": "medium",
     "nsxtManagers": [
       {
-        "hostname": "vcf-m01-nsx01a",
-        "ip": "10.0.1.11"
+        "ip": "10.0.1.11",
+        "hostname": "vcf-m01-nsx01a"
       }
     ],
     "rootNsxtManagerPassword": "VMware123!VMware123!",
@@ -117,13 +117,13 @@
       "subnets": [
         {
           "gateway": "10.0.4.1",
-          "cidr": "10.0.4.0/24",
           "ipAddressPoolRanges": [
             {
               "end": "10.0.4.118",
               "start": "10.0.4.101"
             }
-          ]
+          ],
+          "cidr": "10.0.4.0/24"
         }
       ]
     }
