@@ -14,7 +14,7 @@
     "nameserver": "10.0.0.114"
   },
   "sddcManagerSpec": {
-    "ipAddress": "10.0.1.212",
+    "ipAddress": "192.168.1.11",
     "netmask": "255.255.255.0",
     "hostname": "vcf-m01-sddcm01",
     "localUserPassword": "VMware123!VMware123!",
@@ -35,8 +35,8 @@
   "networkSpecs": [
     {
       "networkType": "MANAGEMENT",
-      "subnet": "10.0.1.0/24",
-      "gateway": "10.0.0.2",
+      "subnet": "192.168.1.0/24",
+      "gateway": "10.0.0.1",
       "vlanId": "0",
       "mtu": "1500",
       "portGroupKey": "vcf-m01-cl01-vds01-pg-mgmt",
@@ -48,16 +48,16 @@
     },
     {
       "networkType": "VMOTION",
-      "subnet": "10.0.2.0/24",
-      "gateway": "10.0.2.1",
+      "subnet": "192.168.2.0/24",
+      "gateway": "192.168.2.1",
       "vlanId": "0",
       "mtu": "9000",
       "portGroupKey": "vcf-m01-cl01-vds01-pg-vmotion",
       "association": "vcf-m01-dc01",
       "includeIpAddressRanges": [
         {
-          "startIpAddress": "10.0.2.101",
-          "endIpAddress": "10.0.2.118"
+          "startIpAddress": "192.168.2.101",
+          "endIpAddress": "192.168.2.118"
         }
       ],
       "standbyUplinks": [],
@@ -68,15 +68,15 @@
     },
     {
       "networkType": "VSAN",
-      "subnet": "10.0.3.0/24",
-      "gateway": "10.0.3.1",
+      "subnet": "192.168.3.0/24",
+      "gateway": "192.168.3.1",
       "vlanId": "0",
       "mtu": "9000",
       "portGroupKey": "vcf-m01-cl01-vds01-pg-vsan",
       "includeIpAddressRanges": [
         {
-          "startIpAddress": "10.0.3.101",
-          "endIpAddress": "10.0.3.118"
+          "startIpAddress": "192.168.3.101",
+          "endIpAddress": "192.168.3.118"
         }
       ],
       "standbyUplinks": [],
@@ -90,8 +90,8 @@
     "nsxtManagerSize": "medium",
     "nsxtManagers": [
       {
-        "ip": "10.0.1.11",
-        "hostname": "vcf-m01-nsx01a"
+        "hostname": "vcf-m01-nsx01a",
+        "ip": "192.168.1.22"
       }
     ],
     "rootNsxtManagerPassword": "VMware123!VMware123!",
@@ -107,7 +107,7 @@
       "zoneName": "vcf-m01-tz-vlan01",
       "networkName": "netName-vlan"
     },
-    "vip": "10.0.1.241",
+    "vip": "192.168.1.21",
     "vipFqdn": "vcf-m01-nsx01",
     "nsxtLicense": "",
     "transportVlanId": "2005",
@@ -116,14 +116,14 @@
       "description": "ESXi Host Overlay TEP IP Pool",
       "subnets": [
         {
-          "gateway": "10.0.4.1",
+          "cidr": "192.168.4.0/24",
+          "gateway": "192.168.4.1",
           "ipAddressPoolRanges": [
             {
-              "end": "10.0.4.118",
-              "start": "10.0.4.101"
+              "end": "192.168.4.118",
+              "start": "192.168.4.101"
             }
-          ],
-          "cidr": "10.0.4.0/24"
+          ]
         }
       ]
     }
@@ -151,40 +151,40 @@
       ],
       "niocSpecs": [
         {
-          "value": "HIGH",
-          "trafficType": "VSAN"
+          "trafficType": "VSAN",
+          "value": "HIGH"
         },
         {
-          "value": "LOW",
-          "trafficType": "VMOTION"
+          "trafficType": "VMOTION",
+          "value": "LOW"
         },
         {
-          "value": "LOW",
-          "trafficType": "VDP"
+          "trafficType": "VDP",
+          "value": "LOW"
         },
         {
-          "value": "HIGH",
-          "trafficType": "VIRTUALMACHINE"
+          "trafficType": "VIRTUALMACHINE",
+          "value": "HIGH"
         },
         {
-          "value": "NORMAL",
-          "trafficType": "MANAGEMENT"
+          "trafficType": "MANAGEMENT",
+          "value": "NORMAL"
         },
         {
-          "value": "LOW",
-          "trafficType": "NFS"
+          "trafficType": "NFS",
+          "value": "LOW"
         },
         {
-          "value": "LOW",
-          "trafficType": "HBR"
+          "trafficType": "HBR",
+          "value": "LOW"
         },
         {
-          "value": "LOW",
-          "trafficType": "FAULTTOLERANCE"
+          "trafficType": "FAULTTOLERANCE",
+          "value": "LOW"
         },
         {
-          "value": "LOW",
-          "trafficType": "ISCSI"
+          "trafficType": "ISCSI",
+          "value": "LOW"
         }
       ],
       "isUsedByNsxt": "true"
@@ -270,7 +270,7 @@
     }
   ],
   "vcenterSpec": {
-    "vcenterIp": "10.0.1.238",
+    "vcenterIp": "192.168.1.20",
     "vcenterHostname": "vcf-m01-vc01",
     "vcenterId": "vcenter-1",
     "licenseFile": "",
@@ -282,9 +282,9 @@
     {
       "association": "vcf-m01-dc01",
       "ipAddressPrivate": {
-        "ipAddress": "10.0.1.206",
-        "cidr": "10.0.1.0/24",
-        "gateway": "10.0.0.2"
+        "ipAddress": "192.168.1.12",
+        "cidr": "192.168.1.0/24",
+        "gateway": "10.0.0.1"
       },
       "hostname": "vcf-m01-esx01",
       "credentials": {
@@ -299,9 +299,9 @@
     {
       "association": "vcf-m01-dc01",
       "ipAddressPrivate": {
-        "ipAddress": "10.0.1.207",
-        "cidr": "10.0.1.0/24",
-        "gateway": "10.0.0.2"
+        "ipAddress": "192.168.1.13",
+        "cidr": "192.168.1.0/24",
+        "gateway": "10.0.0.1"
       },
       "hostname": "vcf-m01-esx02",
       "credentials": {
@@ -316,9 +316,9 @@
     {
       "association": "vcf-m01-dc01",
       "ipAddressPrivate": {
-        "ipAddress": "10.0.1.208",
-        "cidr": "10.0.1.0/24",
-        "gateway": "10.0.0.2"
+        "ipAddress": "192.168.1.14",
+        "cidr": "192.168.1.0/24",
+        "gateway": "10.0.0.1"
       },
       "hostname": "vcf-m01-esx03",
       "credentials": {
@@ -333,9 +333,9 @@
     {
       "association": "vcf-m01-dc01",
       "ipAddressPrivate": {
-        "ipAddress": "10.0.1.209",
-        "cidr": "10.0.1.0/24",
-        "gateway": "10.0.0.2"
+        "ipAddress": "192.168.1.15",
+        "cidr": "192.168.1.0/24",
+        "gateway": "10.0.0.1"
       },
       "hostname": "vcf-m01-esx04",
       "credentials": {
