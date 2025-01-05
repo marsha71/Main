@@ -36,7 +36,7 @@
     {
       "networkType": "MANAGEMENT",
       "subnet": "192.168.1.0/24",
-      "gateway": "10.0.0.1",
+      "gateway": "192.168.1.1",
       "vlanId": "0",
       "mtu": "1500",
       "portGroupKey": "vcf-m01-cl01-vds01-pg-mgmt",
@@ -56,8 +56,8 @@
       "association": "vcf-m01-dc01",
       "includeIpAddressRanges": [
         {
-          "startIpAddress": "192.168.2.101",
-          "endIpAddress": "192.168.2.118"
+          "endIpAddress": "192.168.2.118",
+          "startIpAddress": "192.168.2.101"
         }
       ],
       "standbyUplinks": [],
@@ -75,8 +75,8 @@
       "portGroupKey": "vcf-m01-cl01-vds01-pg-vsan",
       "includeIpAddressRanges": [
         {
-          "startIpAddress": "192.168.3.101",
-          "endIpAddress": "192.168.3.118"
+          "endIpAddress": "192.168.3.118",
+          "startIpAddress": "192.168.3.101"
         }
       ],
       "standbyUplinks": [],
@@ -90,8 +90,8 @@
     "nsxtManagerSize": "medium",
     "nsxtManagers": [
       {
-        "hostname": "vcf-m01-nsx01a",
-        "ip": "192.168.1.22"
+        "ip": "192.168.1.22",
+        "hostname": "vcf-m01-nsx01a"
       }
     ],
     "rootNsxtManagerPassword": "VMware123!VMware123!",
@@ -116,14 +116,14 @@
       "description": "ESXi Host Overlay TEP IP Pool",
       "subnets": [
         {
-          "cidr": "192.168.4.0/24",
           "gateway": "192.168.4.1",
           "ipAddressPoolRanges": [
             {
               "end": "192.168.4.118",
               "start": "192.168.4.101"
             }
-          ]
+          ],
+          "cidr": "192.168.4.0/24"
         }
       ]
     }
@@ -151,40 +151,40 @@
       ],
       "niocSpecs": [
         {
-          "trafficType": "VSAN",
-          "value": "HIGH"
+          "value": "HIGH",
+          "trafficType": "VSAN"
         },
         {
-          "trafficType": "VMOTION",
-          "value": "LOW"
+          "value": "LOW",
+          "trafficType": "VMOTION"
         },
         {
-          "trafficType": "VDP",
-          "value": "LOW"
+          "value": "LOW",
+          "trafficType": "VDP"
         },
         {
-          "trafficType": "VIRTUALMACHINE",
-          "value": "HIGH"
+          "value": "HIGH",
+          "trafficType": "VIRTUALMACHINE"
         },
         {
-          "trafficType": "MANAGEMENT",
-          "value": "NORMAL"
+          "value": "NORMAL",
+          "trafficType": "MANAGEMENT"
         },
         {
-          "trafficType": "NFS",
-          "value": "LOW"
+          "value": "LOW",
+          "trafficType": "NFS"
         },
         {
-          "trafficType": "HBR",
-          "value": "LOW"
+          "value": "LOW",
+          "trafficType": "HBR"
         },
         {
-          "trafficType": "FAULTTOLERANCE",
-          "value": "LOW"
+          "value": "LOW",
+          "trafficType": "FAULTTOLERANCE"
         },
         {
-          "trafficType": "ISCSI",
-          "value": "LOW"
+          "value": "LOW",
+          "trafficType": "ISCSI"
         }
       ],
       "isUsedByNsxt": "true"
@@ -284,7 +284,7 @@
       "ipAddressPrivate": {
         "ipAddress": "192.168.1.12",
         "cidr": "192.168.1.0/24",
-        "gateway": "10.0.0.1"
+        "gateway": "192.168.1.1"
       },
       "hostname": "vcf-m01-esx01",
       "credentials": {
@@ -301,7 +301,7 @@
       "ipAddressPrivate": {
         "ipAddress": "192.168.1.13",
         "cidr": "192.168.1.0/24",
-        "gateway": "10.0.0.1"
+        "gateway": "192.168.1.1"
       },
       "hostname": "vcf-m01-esx02",
       "credentials": {
@@ -318,7 +318,7 @@
       "ipAddressPrivate": {
         "ipAddress": "192.168.1.14",
         "cidr": "192.168.1.0/24",
-        "gateway": "10.0.0.1"
+        "gateway": "192.168.1.1"
       },
       "hostname": "vcf-m01-esx03",
       "credentials": {
@@ -335,7 +335,7 @@
       "ipAddressPrivate": {
         "ipAddress": "192.168.1.15",
         "cidr": "192.168.1.0/24",
-        "gateway": "10.0.0.1"
+        "gateway": "192.168.1.1"
       },
       "hostname": "vcf-m01-esx04",
       "credentials": {
