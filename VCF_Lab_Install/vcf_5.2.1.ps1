@@ -15,8 +15,8 @@ $SDDCManagerOVA = "/users/mc006068broadcom.net/Downloads/VCF-Cloud-Builder-5.2.1
 $VCFImportToolpath = "/users/mc006068broadcom.net/Downloads/vcf-brownfield-import-5.2.1.1-24421574.tar.gz"
 
 # Full Path to VCF 5.2.1 NSX 4.2.1 Bundle and NSX spec file
-$NSXBundlePath = "L:\Downloads\bundle-133764.zip"
-$NsxSpecJsonPath = "L:\Downloads\nsx-deployment-spec.json"
+#$NSXBundlePath = "L:\Downloads\bundle-133764.zip"
+#$NsxSpecJsonPath = "L:\Downloads\nsx-deployment-spec.json"
 
 # Nested ESXi VMs to deploy
 $NestedESXiHostnameToIPs = @{
