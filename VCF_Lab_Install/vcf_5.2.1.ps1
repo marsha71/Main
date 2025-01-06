@@ -10,13 +10,13 @@ $VIPassword = "VMware123!"
 
 # Full Path to the Nested ESXi 8.0u3b OVA, SDDC 5.2.1.0 OVA, VCF Import Tool 5.2.1.0 & Extracted VCSA 8.0.3d ISO
 $NestedESXiApplianceOVA = "/users/mc006068broadcom.net/downloads/Nested_ESXi8.0u3b_Appliance_Template_v1.ova"
-$VCSAInstallerPath = "/users/mc006068broadcom.net/Downloads/VMware-VCSA-all-8.0.3-24322831d.iso"
-$SDDCManagerOVA = "/users/mc006068broadcom.net/Downloads/VCF-Cloud-Builder-5.2.1.0-24307856.ova"
+$VCSAInstallerPath = "/users/mc006068broadcom.net/Downloads/VMware-VCSA-all-8.0.3-24322831.iso"
+$SDDCManagerOVA = "/users/mc006068broadcom.net/Downloads/VMware-Cloud-Builder-5.2.1.0-24307856_OVF10.ova"
 $VCFImportToolpath = "/users/mc006068broadcom.net/Downloads/vcf-brownfield-import-5.2.1.1-24421574.tar.gz"
 
 # Full Path to VCF 5.2.1 NSX 4.2.1 Bundle and NSX spec file
-#$NSXBundlePath = "L:\Downloads\bundle-133764.zip"
-#$NsxSpecJsonPath = "L:\Downloads\nsx-deployment-spec.json"
+#$NSXBundlePath = "/users/mc006068broadcom.net/Downloads/bundle-133764.zip"
+#$NsxSpecJsonPath = "/users/mc006068broadcom.net/Downloads/nsx-deployment-spec.json"
 
 # Nested ESXi VMs to deploy
 $NestedESXiHostnameToIPs = @{
@@ -178,16 +178,16 @@ if($preCheck -eq 1) {
         exit
     }
     
-    if(!(Test-Path $NSXBundlePath)) {
-        Write-Host -ForegroundColor Red "`nUnable to find $NSXBundlePath ...`n"
-        exit
+    #if(!(Test-Path $NSXBundlePath)) {
+       # Write-Host -ForegroundColor Red "`nUnable to find $NSXBundlePath ...`n"
+        #exit
     }
 
     if($PSVersionTable.PSEdition -ne "Core") {
         Write-Host -ForegroundColor Red "`tPowerShell Core was not detected, please install that before continuing ... `n"
         exit
     }
-}
+
 
 if($confirmDeployment -eq 1) {
     Write-Host -ForegroundColor Magenta "`nPlease confirm the following configuration will be deployed:`n"
